@@ -1,0 +1,126 @@
+/* .homepage {
+  background-image: url("../../../public/images/background-concrete-wall.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-items: center;
+}
+.homepage__container {
+  background: rgba(255, 255, 255, 0.9);
+  height: 100vh;
+}
+
+.homepage__title-area {
+  display: flex;
+  background-color: #fff;
+
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.homepage__title-h1 {
+  font-size: 2rem;
+  color: #3c341f;
+}
+
+.homepage__main-content {
+  display: flex;
+  background-color: #eee;
+  height: 100vh;
+
+}
+
+.homepage__main-content {
+  padding: 0rem 10rem;
+}
+.homepage__main-img {
+  height: 50%;
+
+  padding: 2rem;
+  max-width: 20rem;
+  object-fit: cover;
+} */
+
+.homepage {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-items: center;
+}
+
+.homepage__title-area {
+  display: flex;
+  background-color: #fff;
+
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage__title-h1 {
+  font-size: 2rem;
+  color: #3c341f;
+}
+
+.homepage-first__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(249, 244, 244);
+  padding: 2rem;
+}
+
+.homepage-first__card {
+  width: 27rem;
+  height: 40rem;
+  /* border: 1px solid black; */
+  margin: 1rem;
+}
+
+.homepage-first__card:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+  z-index: 100;
+}
+
+.card__img {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-items: center;
+  /* max-height: 400px; */
+}
+
+.card__img--overlay {
+  height: 100%;
+  /* position: absolute; */
+  /* top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+  background-color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card__img:hover .card__img--overlay {
+  opacity: 0.4;
+}
+
+.card__img-1 {
+  background-image: url("../../images-src/homepage-main-5.jpg");
+}
+
+.card__img-2 {
+  background-image: url("../../images-src/homepage-main-6.jpg");
+}
+
+.card__img-3 {
+  background-image: url("../../images-src/homepage-main-7.jpg");
+}
+
+.card__img-4 {
+  background-image: url("../../images-src/homepage-main-8.jpg");
+}
