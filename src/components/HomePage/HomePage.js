@@ -51,7 +51,7 @@
 
 import React from "react";
 import "./HomePage.css";
-import bg1 from "../../images-src/background-concrete-wall.jpg";
+
 import homepageMain1 from "../../images-src/homepage-main-1.jpg";
 
 const HomePage = () => {
