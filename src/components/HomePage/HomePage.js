@@ -66,6 +66,7 @@ const HomePage = () => {
         <section className="homepage-first__container">
           <div className="homepage-first__card">
             <div className="card__img card__img-1">
+              <p className="card-label">SNACKS</p>
               <div className="card__img--overlay"></div>
             </div>
           </div>
