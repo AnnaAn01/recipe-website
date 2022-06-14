@@ -64,29 +64,38 @@ const HomePage = () => {
           </h1>
         </div>
         <section className="homepage-first__container">
-          <div className="homepage-first__card">
-            <div className="card__img card__img-1">
-              <div className="card__img--overlay"></div>
-              <p className="card-label">PASTA</p>
+          <div className="homepage-first__wrapper">
+            <div className="homepage-first__card">
+              <div className="card__img card__img-1">
+                <div className="card__img--overlay"></div>
+                <p className="card-label">PASTA</p>
+              </div>
+            </div>
+            <div className="homepage-first__card">
+              <div className="card__img card__img-2">
+                <div className="card__img--overlay"></div>
+                <p className="card-label">SNACKS</p>
+              </div>
+            </div>
+            <div className="homepage-first__card">
+              <div className="card__img card__img-3">
+                <div className="card__img--overlay"></div>
+                <p className="card-label">OVEN</p>
+              </div>
+            </div>
+            <div className="homepage-first__card">
+              <div className="card__img card__img-4">
+                <div className="card__img--overlay"></div>
+                <p className="card-label">SPICY</p>
+              </div>
             </div>
           </div>
-          <div className="homepage-first__card">
-            <div className="card__img card__img-2">
-              <div className="card__img--overlay"></div>
-              <p className="card-label">SNACKS</p>
-            </div>
-          </div>
-          <div className="homepage-first__card">
-            <div className="card__img card__img-3">
-              <div className="card__img--overlay"></div>
-              <p className="card-label">OVEN</p>
-            </div>
-          </div>
-          <div className="homepage-first__card">
-            <div className="card__img card__img-4">
-              <div className="card__img--overlay"></div>
-              <p className="card-label">SPICY</p>
-            </div>
+          <div className="search-container">
+            <input
+              className="search-input"
+              type="text"
+              placeholder="Search our recipes"
+            />
           </div>
         </section>
       </div>
