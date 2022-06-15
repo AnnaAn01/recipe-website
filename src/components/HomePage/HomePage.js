@@ -1,56 +1,6 @@
-// import React from "react";
-// import "./HomePage.css";
-// import bg1 from "../../images-src/background-concrete-wall.jpg";
-// import homepageMain1 from "../../images-src/homepage-main-1.jpg";
-
-// const HomePage = () => {
-//   return (
-//     <>
-//       <div className="homepage">
-//         <div className="homepage__container">
-//           <section className="homepage__first-section">
-//             <div className="homepage__title-area">
-//               <h1 className="homepage__title-h1">
-//                 SIMPLE AND QUICK RECIPES FOR EVERYDAY LIFE
-//               </h1>
-//             </div>
-//             <div className="homepage__main-content">
-//               <article className="homepage__main-content">
-//                 <div className="main-content__wrapper">
-//                   <img
-//                     className="homepage__main-img"
-//                     src={homepageMain1}
-//                     alt=""
-//                   />
-//                   <img
-//                     className="homepage__main-img"
-//                     src={homepageMain1}
-//                     alt=""
-//                   />
-//                   <img
-//                     className="homepage__main-img"
-//                     src={homepageMain1}
-//                     alt=""
-//                   />
-//                   <img
-//                     className="homepage__main-img"
-//                     src={homepageMain1}
-//                     alt=""
-//                   />
-//                 </div>
-//               </article>
-//             </div>
-//           </section>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default HomePage;
-
 import React from "react";
 import "./HomePage.css";
+import { BsSearch } from "react-icons/bs";
 
 import homepageMain1 from "../../images-src/homepage-main-1.jpg";
 
@@ -91,11 +41,14 @@ const HomePage = () => {
             </div>
           </div>
           <div className="search-container">
+            <BsSearch className="search-icon" />
             <input
               className="search-input"
               type="text"
               placeholder="Search our recipes"
             />
+            <span className="search__or-span">OR</span>
+            <span className="search__view-all-span">View all Recipes</span>
           </div>
         </section>
       </div>
