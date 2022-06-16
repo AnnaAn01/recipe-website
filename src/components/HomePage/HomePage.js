@@ -51,6 +51,7 @@ const HomePage = () => {
             <span className="search__view-all-span">View all Recipes</span>
           </div>
         </section>
+        <section className="homepage-second__container"></section>
       </div>
     </>
   );
