@@ -167,3 +167,18 @@
   color: #fff;
   cursor: pointer;
 }
+
+/* Second section */
+.homepage-second__container {
+  background-color: red;
+  height: 90vh;
+  padding: 5rem;
+  flex-direction: column;
+}
+
+.homepage-second__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
