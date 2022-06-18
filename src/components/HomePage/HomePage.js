@@ -53,7 +53,10 @@ const HomePage = () => {
         </section>
         <section className="homepage-second__container">
           <div className="homepage-second__wrapper">
-            <div className="homepage-second__card"></div>
+            <div className="homepage-second__card">
+              <div className="second-card__img second-card__img-1"></div>
+              <div className="second-card__text ">Food name here</div>
+            </div>
           </div>
         </section>
       </div>
