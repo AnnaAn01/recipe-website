@@ -51,11 +51,39 @@ const HomePage = () => {
             <span className="search__view-all-span">View all Recipes</span>
           </div>
         </section>
-        <section className="homepage-second__container">
+        {/* <section className="homepage-second__container">
           <div className="homepage-second__wrapper">
             <div className="homepage-second__card">
               <div className="second-card__img second-card__img-1"></div>
               <div className="second-card__text ">Food name here</div>
+            </div>
+            <div className="homepage-second__card">
+              <div className="second-card__img second-card__img-1"></div>
+              <div className="second-card__text ">Food name here</div>
+            </div>
+            <div className="homepage-second__card">
+              <div className="second-card__img second-card__img-1"></div>
+              <div className="second-card__text ">Food name here</div>
+            </div>
+          </div>
+  </section>*/}
+
+        <section className="homepage-second__container">
+          <div className="homepage-second__wrapper">
+            <div className="homepage-second__card">
+              <div className="card__img card__img-1">
+                <div className="card__img--overlay"></div>
+              </div>
+            </div>
+            <div className="homepage-second__card">
+              <div className="card__img card__img-2">
+                <div className="card__img--overlay"></div>
+              </div>
+            </div>
+            <div className="homepage-second__card">
+              <div className="card__img card__img-3">
+                <div className="card__img--overlay"></div>
+              </div>
             </div>
           </div>
         </section>
