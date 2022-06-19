@@ -70,19 +70,38 @@ const HomePage = () => {
 
         <section className="homepage-second__container">
           <div className="homepage-second__wrapper">
+            {/*Second section cards */}
             <div className="homepage-second__card">
-              <div className="card__img card__img-1">
+              <div className="second-card__img second-card__img-1">
                 <div className="card__img--overlay"></div>
+              </div>
+              <div className="second-card__text ">
+                <div className="second-card__title">Food name here</div>
+                <div className="second-card__description">
+                  Some description here
+                </div>
               </div>
             </div>
             <div className="homepage-second__card">
-              <div className="card__img card__img-2">
+              <div className="second-card__img second-card__img-2">
                 <div className="card__img--overlay"></div>
+              </div>
+              <div className="second-card__text ">
+                <div className="second-card__title">Food name here</div>
+                <div className="second-card__description">
+                  Some description here
+                </div>
               </div>
             </div>
             <div className="homepage-second__card">
-              <div className="card__img card__img-3">
+              <div className="second-card__img second-card__img-3">
                 <div className="card__img--overlay"></div>
+              </div>
+              <div className="second-card__text ">
+                <div className="second-card__title">Food name here</div>
+                <div className="second-card__description">
+                  Some description here
+                </div>
               </div>
             </div>
           </div>
