@@ -173,7 +173,7 @@
   /* background-color: red; */
   display: flex;
 
-  background-color: rgb(242, 106, 106);
+  /* background-color: rgb(242, 106, 106); */
   /* background-color: green; */
   padding: 5rem;
   height: 90vh;
@@ -184,7 +184,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* flex-wrap: wrap; */
+  width: auto;
+  height: 100vh;
+  background-color: green;
 }
 
 .homepage-second__card {
@@ -193,14 +195,18 @@
   height: 30rem;
   /* border: 1px solid black; */
   margin: 1rem;
-  /* background-color: red; */
+  background-color: red;
   flex-direction: row;
+  width: 100rem;
+  display: flex;
 }
 
 .second-card__text {
   display: flex;
   font-size: 2rem;
-  flex-direction: row;
+  flex-direction: column;
+  margin-left: 2rem;
+  background-color: yellow;
 }
 
 .second-card__img {
@@ -211,6 +217,7 @@
   border-radius: 3px;
   text-align: center;
   cursor: pointer;
+  width: 20rem;
 }
 
 .second-card__img-1 {
