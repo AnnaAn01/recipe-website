@@ -42,7 +42,7 @@
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   width: 120rem;
 }
 
@@ -182,10 +182,10 @@
   /* background-color: red; */
   display: flex;
 
-  background-color: rgb(242, 106, 106);
+  /* background-color: rgb(242, 106, 106); */
   /* background-color: green; */
   padding: 5rem 15rem;
-  height: 90vh;
+  height: 150vh;
   flex-direction: row;
   /* justify-content: center;
   align-items: center; */
@@ -196,27 +196,71 @@
   flex-direction: column;
   justify-content: center;
   width: auto;
-  height: 100vh;
-  background-color: green;
-  width: 100rem;
+  height: 120vh;
+  /* background-color: green; */
+  width: 90rem;
+  margin-top: 3rem;
+}
+
+.homepage-second__section-title {
+  width: auto;
+  margin: 2rem 3rem;
+  font-size: 3rem;
+  color: #6b5b31;
 }
 
 .homepage-second__card {
   display: flex;
-  height: 30rem;
-  margin: 3rem;
-  background-color: red;
+  height: 25rem;
+  padding: 1rem 3rem;
+  /* background-color: red; */
   flex-direction: row;
-  width: 100rem;
+  /* justify-content: center;
+  align-items: center; */
+  /* width: 100rem; */
 }
 
+.homepage-second__devider-line {
+  width: auto;
+  height: 1px;
+  background-color: rgba(60, 52, 31, 0.3);
+  margin: 1rem 3rem;
+}
 .second-card__text {
   display: flex;
   font-size: 2rem;
   flex-direction: column;
   margin-left: 2rem;
-  background-color: yellow;
+  /* background-color: yellow; */
   width: 100rem;
+  line-height: 2;
+}
+
+.second-card__title {
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 3.5rem;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+.second-card__description {
+  font-size: 1.7rem;
+  text-align: justify;
+}
+
+.second-card__button-continue {
+  text-decoration: none;
+  color: orange;
+  font-size: 2.3rem;
+  font-weight: 600;
+  margin-top: 3rem;
+}
+
+.second-card__button-continue:hover {
+  color: #6b5b31;
 }
 
 .second-card__img {
@@ -227,7 +271,12 @@
   border-radius: 3px;
   text-align: center;
   cursor: pointer;
-  width: 20rem;
+  width: 30rem;
+}
+
+.second-card__img:hover {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0.6;
 }
 
 .second-card__img-1 {

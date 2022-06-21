@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <>
       <div className="homepage">
-        <div className="homepage__wrapper">
+        <div className="">
           <div className="homepage__title-area">
             <h1 className="homepage__title-h1">
               SIMPLE AND QUICK RECIPES FOR EVERYDAY LIFE
@@ -52,25 +52,12 @@ const HomePage = () => {
               <span className="search__view-all-span">View all Recipes</span>
             </div>
           </section>
-          {/* <section className="homepage-second__container">
-          <div className="homepage-second__wrapper">
-            <div className="homepage-second__card">
-              <div className="second-card__img second-card__img-1"></div>
-              <div className="second-card__text ">Food name here</div>
-            </div>
-            <div className="homepage-second__card">
-              <div className="second-card__img second-card__img-1"></div>
-              <div className="second-card__text ">Food name here</div>
-            </div>
-            <div className="homepage-second__card">
-              <div className="second-card__img second-card__img-1"></div>
-              <div className="second-card__text ">Food name here</div>
-            </div>
-          </div>
-  </section>*/}
 
           <section className="homepage-second__container">
             <div className="homepage-second__wrapper">
+              <h1 className="homepage-second__section-title">
+                Latest Quick Recipes
+              </h1>
               {/*Second section cards */}
               <div className="homepage-second__card">
                 <div className="second-card__img second-card__img-1">
@@ -81,17 +68,14 @@ const HomePage = () => {
                   <div className="second-card__description">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown
-                    printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries,
-                    but also the leap into electronic typesetting, remaining
-                    essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum
-                    passages, and more recently with desktop publishing software
-                    like Aldus PageMaker including versions of Lorem Ipsum.
+                    standard dummy text ever since the 1500s.
                   </div>
+                  <a href="#" className="second-card__button-continue">
+                    Continue Reading
+                  </a>
                 </div>
               </div>
+              <div className="homepage-second__devider-line"></div>
               <div className="homepage-second__card">
                 <div className="second-card__img second-card__img-2">
                   <div className="card__img--overlay"></div>
@@ -99,10 +83,17 @@ const HomePage = () => {
                 <div className="second-card__text ">
                   <div className="second-card__title">Food name here</div>
                   <div className="second-card__description">
-                    Some description here
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s. Lorem Ipsum has
+                    been the industry's standard dummy.
                   </div>
+                  <a href="#" className="second-card__button-continue">
+                    Continue Reading
+                  </a>
                 </div>
               </div>
+              <div className="homepage-second__devider-line"></div>
               <div className="homepage-second__card">
                 <div className="second-card__img second-card__img-3">
                   <div className="card__img--overlay"></div>
@@ -110,10 +101,18 @@ const HomePage = () => {
                 <div className="second-card__text ">
                   <div className="second-card__title">Food name here</div>
                   <div className="second-card__description">
-                    Some description here
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s. Lorem Ipsum has
+                    been the industry's standard dummy text ever since the
+                    1500s.
                   </div>
+                  <a href="#" className="second-card__button-continue">
+                    Continue Reading
+                  </a>
                 </div>
               </div>
+              <div className="homepage-second__devider-line"></div>
             </div>
           </section>
         </div>
