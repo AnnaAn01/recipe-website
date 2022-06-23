@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import FooterForm from "./FooterForm";
 import { FaInstagramSquare, FaTwitterSquare } from "react-icons/fa";
 
 const Footer = () => {
@@ -32,49 +33,7 @@ const Footer = () => {
             © 2022 TITLE HERE. All Rights Reserved
           </div>
         </div>
-        <div className="footer__newsletter-wrapper">
-          <div className="footer__newsletter-title">
-            Signup for email recipe updates
-          </div>
-          <div className="footer__newsletter-container">
-            <form
-              className="footer__form"
-              action="https://formspree.io/f/mgedbypa"
-              method="POST"
-            >
-              <div className="newsletter__form-group">
-                {/*<label htmlFor="firstName">First Name</label> */}
-                <input
-                  className="form__items"
-                  type="text"
-                  id="firstName"
-                  name="firstName"
-                  placeholder="First Name"
-                />
-              </div>
-              <div className="newsletter__form-group">
-                {/*<label htmlFor="email">Email</label> */}
-
-                <input
-                  className="form__items"
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Email"
-                />
-              </div>
-              <button className="form__items form__button" type="submit">
-                Submit
-              </button>
-            </form>
-            <div
-              className="newsletter__status-success"
-              id="newsletter__submit-status"
-            >
-              Your email has been submitted!
-            </div>
-          </div>
-        </div>
+        <FooterForm />
       </div>
     </footer>
   );

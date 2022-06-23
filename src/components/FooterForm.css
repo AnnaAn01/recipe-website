@@ -1,44 +1,3 @@
-.footer {
-  background-color: rgb(254, 196, 127);
-  height: 35vh;
-}
-
-.footer__container {
-  padding: 0rem 15rem;
-  margin: 0 3rem;
-  display: flex;
-  justify-content: space-between;
-  /* background-color: blueviolet; */
-}
-
-.footer__sns {
-}
-
-.footer__sns-wrapper {
-  /* background-color: blue; */
-  height: 20vh;
-  margin-top: 2rem;
-}
-
-.footer__sns-icons {
-  text-decoration: none;
-  color: #3c341f;
-  font-size: 5rem;
-  margin-right: 1rem;
-  /* background-color: aqua; */
-}
-
-.footer__sns-icons:hover {
-  color: rgba(69, 176, 12, 1);
-}
-
-.footer__title {
-  margin-bottom: 2rem;
-}
-.footer__copyright {
-  font-size: 1.5rem;
-}
-
 .footer__newsletter-wrapper {
   font-size: 7rem;
   background-color: orange;
@@ -135,3 +94,9 @@
     pointer-events: none;
   }
 } */
+
+.hidden {
+  opacity: 0;
+  padding: 1rem;
+  font-size: 2.5rem;
+}
