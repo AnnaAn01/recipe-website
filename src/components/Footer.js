@@ -37,7 +37,11 @@ const Footer = () => {
             Signup for email recipe updates
           </div>
           <div className="footer__newsletter-container">
-            <form className="footer__form" action="">
+            <form
+              className="footer__form"
+              action="https://formspree.io/f/mgedbypa"
+              method="POST"
+            >
               <div className="newsletter__form-group">
                 {/*<label htmlFor="firstName">First Name</label> */}
                 <input
