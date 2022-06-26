@@ -1,0 +1,20 @@
+.homepage-first__container {
+  display: flex;
+
+  background-color: rgb(249, 244, 244);
+  /* background-color: green; */
+  padding: 5rem 15rem;
+  height: 90vh;
+  flex-direction: column;
+  /* justify-content: center;
+    align-items: center; */
+}
+
+.homepage-first__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background-color: aquamarine; */
+  /* width: 120rem; */
+}

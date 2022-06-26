@@ -1,9 +1,10 @@
-.homepage {
+/* .homepage {
   height: 100%;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: auto;
   align-items: center;
-}
+  width: auto;
+} */
 
 /* .homepage__wrapper {
   background-color: rgb(249, 244, 244);
@@ -18,6 +19,8 @@
   align-items: center;
   justify-content: center;
   padding: 2rem;
+  width: auto;
+  /* background-color: red; */
 }
 
 .homepage__title-h1 {
@@ -35,6 +38,7 @@
   flex-direction: column;
   /* justify-content: center;
   align-items: center; */
+  width: auto;
 }
 
 .homepage-first__wrapper {
@@ -43,7 +47,7 @@
   justify-content: center;
   flex-wrap: wrap;
   /* background-color: aquamarine; */
-  width: 120rem;
+  width: 100%;
 }
 
 .homepage-first__card {

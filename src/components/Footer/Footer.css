@@ -1,6 +1,7 @@
 .footer {
   background-color: rgb(254, 196, 127);
   height: 35vh;
+  width: auto;
 }
 
 .footer__container {
