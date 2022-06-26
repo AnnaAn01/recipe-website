@@ -1,8 +1,9 @@
-.homepage-first__container {
+.about__container {
   display: flex;
 
   background-color: rgb(249, 244, 244);
-  /* background-color: green; */
+  background-color: rgb(242, 242, 242);
+  /* background-color: #4d4d4d; */
   padding: 5rem 15rem;
   height: 90vh;
   flex-direction: column;
@@ -10,7 +11,7 @@
     align-items: center; */
 }
 
-.homepage-first__wrapper {
+.about__wrapper {
   display: flex;
   flex-direction: row;
   justify-content: center;
