@@ -2,7 +2,9 @@ import React from "react";
 import "./AboutPage.css";
 import { BsSearch } from "react-icons/bs";
 
-import homepageMain1 from "../../images-src/homepage-main-1.jpg";
+// import aboutImg from "./about-img-1.jpg";
+import aboutImg from "../../images-src/about-img-1.jpg";
+// import aboutImg from "../../images-src/homepage-main-4.jpg";
 
 const AboutPage = () => {
   return (
@@ -10,19 +12,25 @@ const AboutPage = () => {
       <section className="about__container">
         <div className="about__wrapper">
           <div className="about__photo-wrapper">
-            <div className="about__img"></div>
+            {/*<img src="homepageMain1" alt="about me" className="about__img" />*/}
+            <img src={aboutImg} alt="about me" className="about__img" />
+            {/*<div className="about__img"></div>*/}
           </div>
           <div className="about__text-wrapper">
-            <div className="about__title">About me</div>
+            <div className="about__text-title">About me</div>
             <p className="about__first-p">Hi, my name is Anna.</p>
             <p className="about__text">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit,
-              ex officia? A quibusdam, illo consequatur nulla quaerat ex
-              aliquid, sequi quia numquam id est. Mollitia quidem iure ipsa modi
-              beatae? Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Fugit, ex officia? A quibusdam, illo consequatur nulla quaerat ex
-              aliquid, sequi quia numquam id est. Mollitia quidem iure ipsa modi
-              beatae?
+              <p className="about__text-1 about__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit,
+                ex officia? A quibusdam, illo consequatur nulla quaerat ex
+                aliquid, sequi quia numquam id est.
+              </p>
+              <p className="about__text-2 about__text">
+                Mollitia quidem iure ipsa modi beatae? Lorem ipsum, dolor sit
+                amet consectetur adipisicing elit. Fugit, ex officia? A
+                quibusdam, illo consequatur nulla quaerat ex aliquid, sequi quia
+                numquam id est. Mollitia quidem iure ipsa modi beatae?
+              </p>
             </p>
           </div>
         </div>
