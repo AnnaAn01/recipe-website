@@ -22,8 +22,7 @@ const AboutPage = () => {
             <p className="about__text">
               <p className="about__text-1 about__text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit,
-                ex officia? A quibusdam, illo consequatur nulla quaerat ex
-                aliquid, sequi quia numquam id est.
+                ex officia? A quibusdam.
               </p>
               <p className="about__text-2 about__text">
                 Mollitia quidem iure ipsa modi beatae? Lorem ipsum, dolor sit
