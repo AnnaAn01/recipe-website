@@ -26,7 +26,9 @@ const AboutPage = () => {
               </p>
               <p className="about__text-2 about__text">
                 Mollitia quidem iure ipsa modi beatae? Lorem ipsum, dolor sit
-                amet consectetur adipisicing elit.
+                amet consectetur adipisicing elit.Mollitia quidem iure ipsa modi
+                beatae? Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit.
               </p>
             </p>
           </div>
