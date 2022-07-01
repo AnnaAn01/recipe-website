@@ -66,3 +66,9 @@
   font-size: 2rem;
   line-height: 2;
 }
+
+.search__value-link-returned {
+  text-decoration: none;
+  color: rgba(69, 176, 12, 1);
+  font-size: 2rem;
+}
