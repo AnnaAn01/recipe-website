@@ -1,8 +1,7 @@
 import React from "react";
 import "./HomePage.css";
-import { BsSearch } from "react-icons/bs";
 
-import homepageMain1 from "../../images-src/homepage-main-1.jpg";
+import SearchBar from "../SearchBar/SearchBar";
 
 const HomePage = () => {
   return (
@@ -39,16 +38,7 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <div className="search-container">
-          <BsSearch className="search-icon" />
-          <input
-            className="search-input"
-            type="text"
-            placeholder="Search our recipes"
-          />
-          <span className="search__or-span">OR</span>
-          <span className="search__view-all-span">View all Recipes</span>
-        </div>
+        <SearchBar />
       </section>
 
       <section className="homepage-second__container">

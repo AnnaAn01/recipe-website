@@ -1,6 +1,5 @@
 import React from "react";
 import "./AboutPage.css";
-import { BsSearch } from "react-icons/bs";
 
 // import aboutImg from "./about-img-1.jpg";
 import aboutImg from "../../images-src/about-img-1.jpg";
