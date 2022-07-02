@@ -20,7 +20,9 @@ const SearchBar = () => {
       />
 
       <span className="search__or-span">OR</span>
-      <span className="search__view-all-span">View all Recipes</span>
+      <Link to="recipes" className="search__view-all-link">
+        <span className="search__view-all-span">View all Recipes</span>
+      </Link>
       <div className="search__value">
         {MOCK_DATA.filter((val) => {
           if (searchTerm === "") {

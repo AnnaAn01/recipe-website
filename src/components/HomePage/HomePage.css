@@ -33,8 +33,9 @@
 
   background-color: rgb(249, 244, 244);
   /* background-color: green; */
-  padding: 5rem 15rem;
-  height: 90vh;
+  padding: 5rem 15rem 2rem 15rem;
+  /* height: 90vh; */
+  height: auto;
   flex-direction: column;
   /* justify-content: center;
   align-items: center; */
