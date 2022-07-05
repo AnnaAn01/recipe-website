@@ -1,13 +1,5 @@
 [
   {
-    "id": 1,
-    "first_name": "Niall",
-    "last_name": "Geere",
-    "email": "ngeere0@desdev.cn",
-    "gender": "Male",
-    "ip_address": "131.7.132.148"
-  },
-  {
     "id": 3,
     "first_name": "Falkner",
     "last_name": "Dobbison",
