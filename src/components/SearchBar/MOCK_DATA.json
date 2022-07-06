@@ -7,14 +7,7 @@
     "gender": "Male",
     "ip_address": "136.224.83.216"
   },
-  {
-    "id": 4,
-    "first_name": "Klarika",
-    "last_name": "Foskew",
-    "email": "kfoskew3@sina.com.cn",
-    "gender": "Female",
-    "ip_address": "199.34.150.114"
-  },
+
   {
     "id": 5,
     "first_name": "Roxanne",
