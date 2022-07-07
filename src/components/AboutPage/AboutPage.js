@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutPage.css";
+import SearchBar from "../SearchBar/SearchBar";
 
 // import aboutImg from "./about-img-1.jpg";
 import aboutImg from "../../images-src/about-img-1.jpg";
@@ -30,6 +31,7 @@ const AboutPage = () => {
                 elit.
               </p>
             </p>
+            <SearchBar />
           </div>
         </div>
       </section>
