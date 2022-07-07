@@ -31,8 +31,10 @@ const AboutPage = () => {
                 elit.
               </p>
             </p>
-            <SearchBar />
           </div>
+        </div>
+        <div className="about-search__wrapper">
+          <SearchBar />
         </div>
       </section>
     </>

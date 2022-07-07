@@ -5,7 +5,8 @@
   background-color: rgb(242, 242, 242);
   /* background-color: #4d4d4d; */
   padding: 0rem 15rem;
-  height: 82vh;
+  height: 105vh;
+  /* height: auto; */
   flex-direction: column;
   /* justify-content: center;
     align-items: center; */
@@ -58,4 +59,8 @@
   line-height: 2;
   margin-bottom: 2rem;
   color: #4d4d4d;
+}
+
+.about-search__wrapper {
+  padding-bottom: 10rem;
 }
