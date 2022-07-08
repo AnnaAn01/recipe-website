@@ -38,7 +38,9 @@ const HomePage = () => {
             </div>
           </div>
         </div>
-        <SearchBar />
+        <div className="home__search-container">
+          <SearchBar />
+        </div>
       </section>
 
       <section className="homepage-second__container">

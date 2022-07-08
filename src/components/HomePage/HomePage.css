@@ -128,6 +128,10 @@
   background-image: url("../../images-src/homepage-main-8.jpg");
 }
 
+.home__search-container {
+  margin-top: 8rem;
+}
+
 .homepage-second__container {
   /* background-color: red; */
   display: flex;
