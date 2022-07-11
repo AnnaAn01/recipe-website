@@ -4,6 +4,7 @@ import HomePage from "./components/HomePage/HomePage";
 import Footer from "./components/Footer/Footer";
 import AboutPage from "./components/AboutPage/AboutPage";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import Recipes from "./components/Recipes/Recipes";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/about" element={<Recipes />} />
       </Routes>
       <Footer />
     </Router>
