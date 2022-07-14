@@ -1,0 +1,25 @@
+.recipes__container {
+  display: flex;
+
+  background-color: rgb(249, 244, 244);
+  background-color: rgb(242, 242, 242);
+  /* background-color: #4d4d4d; */
+  padding: 0rem 15rem;
+  /* height: 105vh; */
+  height: auto;
+  flex-direction: column;
+  /* justify-content: center;
+      align-items: center; */
+  /* flex-direction: row; */
+}
+
+.recipes__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 90vh;
+  grid-gap: 10rem;
+}
