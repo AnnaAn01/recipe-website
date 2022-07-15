@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsSearch } from "react-icons/bs";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
 const Navbar = () => {
+  // const [click, setClick] = useState(false);
+
+  // const handleClick = () => {
+  //   setClick((click) => !click);
+  // };
+
   return (
     <>
       <nav className="navbar">
