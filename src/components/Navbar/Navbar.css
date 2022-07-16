@@ -41,10 +41,6 @@
   background-color: aquamarine; */
 }
 
-.navbar__item-link:focus {
-  color: orange;
-}
-
 .navbar__item-link {
   cursor: pointer;
   text-decoration: none;
@@ -53,15 +49,15 @@
   margin-right: 7rem;
 }
 
+/* .navbar__item-link:focus {
+  color: orange;
+} */
+
+.navbar__item-link.active {
+  color: orange;
+}
+
 .navbar__search {
   font-size: 3rem;
   cursor: pointer;
 }
-
-/* #red {
-  color: red;
-}
-
-#green {
-  color: green;
-} */
