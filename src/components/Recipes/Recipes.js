@@ -7,6 +7,7 @@ const Recipes = () => {
     <>
       <div className="recipes__container">
         <div className="recipes__wrapper">
+          <div className="recipes__title">Find our recipes below</div>
           <div className="recipes-search__wrapper">
             <SearchBar />
           </div>
