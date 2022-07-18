@@ -31,3 +31,8 @@
   display: flex;
   background-color: rgba(230, 230, 230, 1);
 }
+
+.recipes__title {
+  justify-content: center;
+  align-items: center;
+}
