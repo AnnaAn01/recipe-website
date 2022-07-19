@@ -35,4 +35,6 @@
 .recipes__title {
   justify-content: center;
   align-items: center;
+  text-align: center;
+  font-size: 2rem;
 }
