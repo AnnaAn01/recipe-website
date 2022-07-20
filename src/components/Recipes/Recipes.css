@@ -25,16 +25,18 @@
 }
 
 .recipes-search__wrapper {
-  padding-top: 5rem;
+  padding-top: 3rem;
   align-items: center;
   justify-content: center;
   display: flex;
-  background-color: rgba(230, 230, 230, 1);
+  /* background-color: rgba(230, 230, 230, 1); */
 }
 
 .recipes__title {
   justify-content: center;
   align-items: center;
   text-align: center;
-  font-size: 2rem;
+  font-size: 3rem;
+  padding-top: 2.5rem;
+  font-weight: 500;
 }

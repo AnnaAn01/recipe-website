@@ -11,6 +11,7 @@ const Recipes = () => {
           <div className="recipes-search__wrapper">
             <SearchBar />
           </div>
+          <div className="recipes__all-container"></div>
         </div>
       </div>
     </>
