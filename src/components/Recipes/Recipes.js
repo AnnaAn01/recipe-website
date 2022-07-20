@@ -11,7 +11,11 @@ const Recipes = () => {
           <div className="recipes-search__wrapper">
             <SearchBar />
           </div>
-          <div className="recipes__all-container"></div>
+          <div className="recipes__all-container">
+            <div className="recipes__all-wrapper">
+              <div className="recipes__all-title">ALL RECIPES</div>
+            </div>
+          </div>
         </div>
       </div>
     </>
