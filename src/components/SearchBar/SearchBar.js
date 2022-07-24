@@ -142,12 +142,16 @@ const SearchBar = () => {
             val.name
               .toLocaleLowerCase()
               .includes(searchTerm.toLocaleLowerCase()) ||
-            val.ingredients[0].name
-              .toLocaleLowerCase()
-              .includes(searchTerm.toLocaleLowerCase())
+            val.ingredients.forEach((el) => {
+              el.name[1]
+                .toLocaleLowerCase()
+                .includes(searchTerm.toLocaleLowerCase());
+              console.log(el.type);
+            })
           ) {
             return <Link to="/about">{val}</Link>;
           }
+          return "";
         }).map((val, key) => {
           return (
             <div className="search__value-div" key={key}>
