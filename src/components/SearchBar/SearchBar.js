@@ -141,12 +141,16 @@ const SearchBar = () => {
           } else if (
             val.name
               .toLocaleLowerCase()
-              .includes(searchTerm.toLocaleLowerCase()) ||
-            val.ingredients.forEach((el) => {
-              el.name[1]
+              .includes(searchTerm.toLocaleLowerCase())
+          ) {
+            return <Link to="/about">{val}</Link>;
+          }
+          if (
+            val.ingredients.forEach((el, index) => {
+              el.name
                 .toLocaleLowerCase()
                 .includes(searchTerm.toLocaleLowerCase());
-              console.log(el.type);
+              // console.log(el.type);
             })
           ) {
             return <Link to="/about">{val}</Link>;
