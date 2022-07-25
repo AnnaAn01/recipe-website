@@ -56,6 +56,58 @@
 }
 
 .recipes__all-list-wrapper {
-  background-color: aqua;
   height: 25vh;
+}
+
+.recipes__list-parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-top: 2rem;
+  background-color: aqua;
+  height: auto;
+}
+
+.recipes__list {
+  border: 1px solid black;
+  height: 20px;
+}
+
+.recipes__list-1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.recipes__list-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.recipes__list-3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.recipes__list-4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.recipes__list-5 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.recipes__list-6 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.recipes__list-7 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.recipes__list-8 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+.recipes__list-9 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.recipes__list-10 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.recipes__list-11 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+.recipes__list-12 {
+  grid-area: 3 / 4 / 4 / 5;
 }
