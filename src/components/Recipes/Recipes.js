@@ -14,7 +14,9 @@ const Recipes = () => {
           <div className="recipes__all-container">
             <div className="recipes__all-wrapper">
               <div className="recipes__all-title">ALL RECIPES</div>
-              <div className="recipes__all-list"></div>
+              <div className="recipes__all-list-container">
+                <div className="recipes__all-list-wrapper"></div>
+              </div>
             </div>
           </div>
         </div>

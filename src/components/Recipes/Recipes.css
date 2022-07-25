@@ -42,7 +42,7 @@
 }
 
 .recipes__all-container {
-  background-color: yellow;
+  /* background-color: yellow; */
   height: 60vh;
 }
 
@@ -53,4 +53,9 @@
   align-items: center;
   text-align: center;
   padding-top: 2rem;
+}
+
+.recipes__all-list-wrapper {
+  background-color: aqua;
+  height: 25vh;
 }
