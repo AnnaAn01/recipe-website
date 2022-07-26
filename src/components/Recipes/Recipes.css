@@ -5,11 +5,12 @@
   /* background-color: green; */
   padding: 0rem 15rem 0rem 15rem;
   /* height: 90vh; */
-  height: auto;
+
   flex-direction: column;
   /* justify-content: center;
     align-items: center; */
   /* width: auto; */
+  height: 180vh;
 }
 
 .recipes__wrapper {
@@ -20,7 +21,7 @@
   /* background-color: aquamarine; */
   /* width: 100%; */
   /* grid-template-columns: 2fr; */
-  height: 90vh;
+  height: auto;
   /* grid-gap: 10rem; */
 }
 
@@ -72,7 +73,7 @@
 
 .recipes__list {
   border: 1px solid black;
-  height: 20px;
+  height: 30rem;
 }
 
 .recipes__list-1 {
