@@ -1,14 +1,5 @@
 [
   {
-    "id": 3,
-    "first_name": "Falkner",
-    "last_name": "Dobbison",
-    "email": "fdobbison2@sogou.com",
-    "gender": "Male",
-    "ip_address": "136.224.83.216"
-  },
-
-  {
     "id": 5,
     "first_name": "Roxanne",
     "last_name": "Baudinelli",
