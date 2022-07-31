@@ -47,6 +47,7 @@ import React from "react";
 import "./Recipes.css";
 import SearchBar from "../SearchBar/SearchBar";
 import RECIPES from "../SearchBar/RECIPES.json";
+import MOCK_DATA from "../SearchBar/MOCK_DATA.json";
 
 const Recipes = () => {
   return (
@@ -64,8 +65,10 @@ const Recipes = () => {
                 <div className="recipes__all-list-wrapper">
                   <div class="recipes__list-parent">
                     <div class="recipes__list recipes__list-1">
-                      {RECIPES.name}
-                      {console.log(RECIPES.name)}
+                      {RECIPES.forEach((el) => {
+                        return el[1];
+                      })}
+                      {console.log(RECIPES[1])}
                     </div>
                     <div class="recipes__list recipes__list-2"> </div>
                     <div class="recipes__list recipes__list-3"> </div>

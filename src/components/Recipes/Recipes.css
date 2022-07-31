@@ -74,6 +74,9 @@
 .recipes__list {
   border: 1px solid black;
   height: 30rem;
+  font-size: 2rem;
+  color: red;
+  background-color: aqua;
 }
 
 .recipes__list-1 {
