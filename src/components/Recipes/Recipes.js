@@ -65,8 +65,8 @@ const Recipes = () => {
                 <div className="recipes__all-list-wrapper">
                   <div class="recipes__list-parent">
                     <div class="recipes__list recipes__list-1">
-                      {RECIPES.forEach((el) => {
-                        return el[1];
+                      {MOCK_DATA.forEach((el) => {
+                        return el.first_name;
                       })}
                       {console.log(RECIPES[1])}
                     </div>

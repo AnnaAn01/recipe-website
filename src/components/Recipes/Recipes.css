@@ -76,7 +76,8 @@
   height: 30rem;
   font-size: 2rem;
   color: red;
-  background-color: aqua;
+  /* background-color: aqua; */
+  z-index: 1000;
 }
 
 .recipes__list-1 {
