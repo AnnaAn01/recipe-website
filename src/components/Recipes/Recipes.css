@@ -75,44 +75,17 @@
   border: 1px solid black;
   height: 30rem;
   font-size: 2rem;
-  color: red;
+  /* color: red; */
   /* background-color: aqua; */
   z-index: 1000;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
 }
 
-.recipes__list-1 {
-  grid-area: 1 / 1 / 2 / 2;
-}
-.recipes__list-2 {
-  grid-area: 1 / 2 / 2 / 3;
-}
-.recipes__list-3 {
-  grid-area: 1 / 3 / 2 / 4;
-}
-.recipes__list-4 {
-  grid-area: 1 / 4 / 2 / 5;
-}
-.recipes__list-5 {
-  grid-area: 2 / 1 / 3 / 2;
-}
-.recipes__list-6 {
-  grid-area: 2 / 2 / 3 / 3;
-}
-.recipes__list-7 {
-  grid-area: 2 / 3 / 3 / 4;
-}
-.recipes__list-8 {
-  grid-area: 2 / 4 / 3 / 5;
-}
-.recipes__list-9 {
-  grid-area: 3 / 1 / 4 / 2;
-}
-.recipes__list-10 {
-  grid-area: 3 / 2 / 4 / 3;
-}
-.recipes__list-11 {
-  grid-area: 3 / 3 / 4 / 4;
-}
-.recipes__list-12 {
-  grid-area: 3 / 4 / 4 / 5;
+.recipes__img {
+  width: 25rem;
+  object-fit: cover;
+  /* object-fit: contain; */
+  height: 25rem;
 }

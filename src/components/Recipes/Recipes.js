@@ -67,15 +67,21 @@ const Recipes = () => {
                     {RECIPES.map((el, index) => {
                       return (
                         <div
+                          key={index}
                           className="recipes__list"
-                          id={"recipes__list-" + index}
+                          id={"recipes__list-" + index + 1}
                         >
                           {el.name}
-                          {el.imageURL}
+                          <img
+                            className="recipes__img"
+                            alt="food"
+                            src={el.imageURL}
+                          />
                         </div>
                       );
                     })}
-                    {console.log(RECIPES[0].name)}
+                    {/*{console.log(RECIPES[0].name)}*/}
+                    {/*{console.log(RECIPES[0].imageURL)}*/}
 
                     {/* <div className="recipes__list recipes__list-1"></div>
                     <div className="recipes__list recipes__list-2">
