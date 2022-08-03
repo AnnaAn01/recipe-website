@@ -43,7 +43,6 @@
 }
 
 .recipes__all-container {
-  /* background-color: yellow; */
   height: 60vh;
 }
 
@@ -67,7 +66,7 @@
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   margin-top: 2rem;
-  /* background-color: aqua; */
+
   height: auto;
 }
 
@@ -75,8 +74,6 @@
   border: 1px solid black;
   height: 30rem;
   font-size: 2rem;
-  /* color: red; */
-  /* background-color: aqua; */
   z-index: 1000;
   width: 30rem;
   display: flex;
