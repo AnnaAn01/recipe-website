@@ -71,12 +71,12 @@ const Recipes = () => {
                           className="recipes__list"
                           id={"recipes__list-" + index + 1}
                         >
-                          {el.name}
                           <img
                             className="recipes__img"
                             alt="food"
                             src={el.imageURL}
                           />
+                          {el.name}
                         </div>
                       );
                     })}
