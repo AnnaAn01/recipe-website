@@ -74,7 +74,8 @@ const Recipes = () => {
                           <img
                             className="recipes__img"
                             alt="food"
-                            src={el.imageURL}
+                            // src={el.imageURL}
+                            src={el.imagePath}
                           />
                           {el.name}
                         </div>

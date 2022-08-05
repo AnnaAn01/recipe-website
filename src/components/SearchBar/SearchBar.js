@@ -114,6 +114,7 @@ import { BsSearch } from "react-icons/bs";
 import "./SearchBar.css";
 import RECIPES from "./RECIPES.json";
 import { Link } from "react-router-dom";
+import Img1 from "../../images-src/recipe-img/big-night-pizza-1.jpg";
 
 const SearchBar = () => {
   const [searchTerm, setSearchTerm] = useState("");
