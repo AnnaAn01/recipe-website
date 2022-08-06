@@ -73,34 +73,11 @@
   text-align: center;
 }
 
-.recipes__list-parent {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  margin-top: 2rem;
-
-  height: auto;
-}
-
-.recipes__list {
-  border: 1px solid black;
-  height: auto;
-  font-size: 2rem;
-  z-index: 1000;
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .recipes__img {
-  width: 25rem;
+  width: 19vw;
   object-fit: cover;
   /* object-fit: contain; */
-  height: 25rem;
+  height: 19vw;
   justify-content: center;
   align-items: center;
 }
