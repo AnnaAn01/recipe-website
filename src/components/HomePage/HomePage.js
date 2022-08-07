@@ -8,7 +8,8 @@ const HomePage = () => {
     <>
       <div className="homepage__title-area">
         <h1 className="homepage__title-h1">
-          SIMPLE AND QUICK RECIPES FOR EVERYDAY LIFE
+          Simple & Quick Recpes
+          <span className="dancng-font"> For Everyday Life</span>
         </h1>
       </div>
       <section className="homepage-first__container">

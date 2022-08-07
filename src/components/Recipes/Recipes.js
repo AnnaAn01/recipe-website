@@ -48,6 +48,7 @@ import "./Recipes.css";
 import SearchBar from "../SearchBar/SearchBar";
 import RECIPES from "../SearchBar/RECIPES.json";
 import MOCK_DATA from "../SearchBar/MOCK_DATA.json";
+import { MdRestaurantMenu } from "react-icons/md";
 
 const Recipes = () => {
   return (
@@ -60,7 +61,9 @@ const Recipes = () => {
           </div>
           <div className="recipes__all-container">
             <div className="recipes__all-wrapper">
-              <div className="recipes__all-title">ALL RECIPES</div>
+              <div className="recipes__all-title">
+                <MdRestaurantMenu className="recipe__menu-icon" /> ALL RECIPES
+              </div>
               <div className="recipes__all-list-container">
                 <div className="recipes__all-list-wrapper">
                   <div className="recipes__list-parent">
@@ -69,7 +72,7 @@ const Recipes = () => {
                         <div
                           key={index}
                           className="recipes__list"
-                          id={"recipes__list-" + index + 1}
+                          id={`recipes__list-${index + 1}`}
                         >
                           <img
                             className="recipes__img"
@@ -77,7 +80,7 @@ const Recipes = () => {
                             // src={el.imageURL}
                             src={el.imagePath}
                           />
-                          {el.name}
+                          <div className="recipes__list-name">{el.name}</div>
                         </div>
                       );
                     })}

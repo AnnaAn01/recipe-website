@@ -24,8 +24,9 @@
 }
 
 .homepage__title-h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #3c341f;
+  font-weight: 600;
 }
 
 .homepage-first__container {
@@ -171,9 +172,11 @@
 
 .homepage-second__devider-line {
   width: auto;
-  height: 1px;
+  height: auto;
   background-color: rgba(60, 52, 31, 0.3);
-  margin: 1rem 3rem;
+  margin: 3rem 3rem;
+  padding: 1px 3rem;
+  /* background-color: red; */
 }
 .second-card__text {
   display: flex;
@@ -188,7 +191,7 @@
 .second-card__title {
   justify-content: flex-start;
   align-items: flex-start;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 500;
   line-height: 1;
   margin-bottom: 1rem;
@@ -241,4 +244,10 @@
 .second-card__img-3 {
   background-image: url("../../images-src/homepage-second-3.jpg");
   /* background-image: url("../../images-src/homepage-main-5.jpg"); */
+}
+
+.dancng-font {
+  font-family: "Dancing Script";
+  font-weight: bold;
+  font-size: 2.7rem;
 }

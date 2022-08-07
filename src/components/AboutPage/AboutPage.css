@@ -38,10 +38,12 @@
 }
 
 .about__text-title {
-  font-size: 5rem;
-  font-weight: 500;
+  font-size: 6rem;
+  /* font-weight: 500; */
   color: #6b5b31;
   padding: 2rem 0;
+  font-family: "Dancing Script";
+  font-weight: bold;
 }
 
 .about__first-p {

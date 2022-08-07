@@ -28,7 +28,7 @@ const Footer = () => {
             </a>
           </div>
 
-          <div className="navbar__title footer__title">TITLE HERE</div>
+          <div className="navbar__title footer__title">Anna's Kitchen</div>
           <div className="footer__copyright">
             © 2022 TITLE HERE. All Rights Reserved
           </div>
