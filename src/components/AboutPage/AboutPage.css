@@ -52,6 +52,11 @@
   padding-bottom: 2rem;
 }
 
+.about__first-p-name {
+  font-family: "Dancing Script";
+  font-size: 4rem;
+}
+
 .about__text {
   font-size: 2rem;
   line-height: 2;

@@ -18,7 +18,9 @@ const AboutPage = () => {
           </div>
           <div className="about__text-wrapper">
             <div className="about__text-title">About me</div>
-            <p className="about__first-p">Hi, my name is Anna.</p>
+            <p className="about__first-p">
+              Hi, my name is <span className="about__first-p-name">Anna.</span>
+            </p>
             <p className="about__text">
               <p className="about__text-1 about__text">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit,
