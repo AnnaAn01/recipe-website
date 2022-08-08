@@ -39,3 +39,8 @@
 .footer__copyright {
   font-size: 1.5rem;
 }
+
+.footer__copyright-title {
+  font-size: 1.5rem;
+  /* font-family: "Dancing Script"; */
+}
