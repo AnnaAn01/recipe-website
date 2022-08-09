@@ -33,13 +33,11 @@
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
-
-  /* background-image: url("../../images-src/about-img-1.jpg"); */
 }
 
 .about__text-title {
   font-size: 6rem;
-  /* font-weight: 500; */
+
   color: #6b5b31;
   padding: 2rem 0;
   font-family: "Dancing Script";
