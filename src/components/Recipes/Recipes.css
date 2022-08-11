@@ -16,16 +16,7 @@
 .recipes__wrapper {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* flex-wrap: wrap; */
-  /* background-color: aquamarine; */
-  /* width: 100%; */
-  /* grid-template-columns: 2fr; */
   height: 100%;
-  /* grid-gap: 10rem; */
-  /* justify-content: center;
-  flex-wrap: wrap;
-  width: 100%; */
   align-items: center;
   width: 100%;
 }
