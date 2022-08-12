@@ -43,14 +43,33 @@
 
 // export default Recipes;
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Recipes.css";
 import SearchBar from "../SearchBar/SearchBar";
 import RECIPES from "../SearchBar/RECIPES.json";
 import MOCK_DATA from "../SearchBar/MOCK_DATA.json";
 import { MdRestaurantMenu } from "react-icons/md";
+import Posts from "./Posts";
 
 const Recipes = () => {
+  const [posts, setPosts] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [postsPerPage] = useState(12);
+
+  // Change page
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
+  // useEffect(() => {
+  //   const fetchPosts = async () => {
+  //     setLoading(true);
+  //     const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
+  //     setPosts(res.data);
+  //     setLoading(false);
+  //   };
+  //   fetchPosts();
+  // }, []);
+
   return (
     <>
       <div className="recipes__container">
@@ -66,7 +85,9 @@ const Recipes = () => {
               </div>
               <div className="recipes__all-list-container">
                 <div className="recipes__all-list-wrapper">
-                  <div className="recipes__list-parent">
+                  <Posts />
+                  {/*<div className="recipes__list-parent">
+                    
                     {RECIPES.map((el, index) => {
                       return (
                         <div
@@ -84,24 +105,8 @@ const Recipes = () => {
                         </div>
                       );
                     })}
-                    {/*{console.log(RECIPES[0].name)}*/}
-                    {/*{console.log(RECIPES[0].imageURL)}*/}
-
-                    {/* <div className="recipes__list recipes__list-1"></div>
-                    <div className="recipes__list recipes__list-2">
-                      {RECIPES[0].name}
-                    </div>
-                    <div className="recipes__list recipes__list-3"> </div>
-                    <div className="recipes__list recipes__list-4"> </div>
-                    <div className="recipes__list recipes__list-5"> </div>
-                    <div className="recipes__list recipes__list-6"> </div>
-                    <div className="recipes__list recipes__list-7"> </div>
-                    <div className="recipes__list recipes__list-8"> </div>
-                    <div className="recipes__list recipes__list-9"> </div>
-                    <div className="recipes__list recipes__list-10"> </div>
-                    <div className="recipes__list recipes__list-11"> </div>
-                <div className="recipes__list recipes__list-12"> </div> */}
-                  </div>
+                  
+                  </div>*/}
                 </div>
               </div>
             </div>
