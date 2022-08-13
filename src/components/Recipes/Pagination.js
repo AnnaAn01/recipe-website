@@ -1,6 +1,6 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./Recipes.css";
+import React from "react";
 
 const Pagination = ({ postsPerPage, totalPosts, paginate, currentPage }) => {
   const pageNumbers = [];

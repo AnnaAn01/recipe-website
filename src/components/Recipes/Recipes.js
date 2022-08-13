@@ -91,7 +91,7 @@ const Recipes = () => {
                 <div className="recipes__all-list-wrapper">
                   {/*<Posts posts={currentPosts} />*/}
                   <Posts posts={currentPosts} loading={loading} />
-                  {console.log(RECIPES)}
+
                   <Pagination
                     postsPerPage={postsPerPage}
                     totalPosts={posts.length}

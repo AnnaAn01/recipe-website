@@ -153,8 +153,8 @@
 .page-item {
   margin-left: 1rem;
   width: 4rem;
-  /* background-color: aqua; */
-  border: 1px solid green;
+  background-color: rgb(207, 204, 204);
+  /* border: 1px solid green; */
   border-radius: 3px;
   /* background-color: green; */
 }
@@ -168,16 +168,26 @@
   padding: 1rem;
 }
 
-/* .active {
-  color: pink;
-} */
-
 .page-link:link,
 .page-link:hover,
 .page-link:active,
 .page-link:focus {
-  color: orange;
+  color: white;
 }
+
+.page-item:link,
+.page-item:hover,
+.page-item:active,
+.page-item:focus-within,
+.page-item:focus-visible {
+  background-color: green;
+}
+
+/* .active {
+  color: pink;
+  background-color: red;
+  font-size: 5rem;
+} */
 
 /* Individual list items */
 /* #recipes__list-1 {
