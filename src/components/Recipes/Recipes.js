@@ -50,6 +50,8 @@ import RECIPES from "../SearchBar/RECIPES.json";
 import MOCK_DATA from "../SearchBar/MOCK_DATA.json";
 import { MdRestaurantMenu } from "react-icons/md";
 import Posts from "./Posts";
+import Pagination from "./Pagination";
+// import axios from "axios";
 
 const Recipes = () => {
   const [posts, setPosts] = useState([]);
@@ -60,15 +62,17 @@ const Recipes = () => {
   // Change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
-  // useEffect(() => {
-  //   const fetchPosts = async () => {
-  //     setLoading(true);
-  //     const res = await axios.get("https://jsonplaceholder.typicode.com/posts");
-  //     setPosts(res.data);
-  //     setLoading(false);
-  //   };
-  //   fetchPosts();
-  // }, []);
+  useEffect(() => {
+    setLoading(true);
+    // const res = await axios.get("RECIPES.json");
+    setPosts(RECIPES);
+    setLoading(false);
+  }, []);
+
+  // Get current posts
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPage = indexOfLastPost - postsPerPage;
+  const currentPosts = posts.slice(indexOfFirstPage, indexOfLastPost);
 
   return (
     <>
@@ -85,28 +89,14 @@ const Recipes = () => {
               </div>
               <div className="recipes__all-list-container">
                 <div className="recipes__all-list-wrapper">
-                  <Posts />
-                  {/*<div className="recipes__list-parent">
-                    
-                    {RECIPES.map((el, index) => {
-                      return (
-                        <div
-                          key={index}
-                          className="recipes__list"
-                          id={`recipes__list-${index + 1}`}
-                        >
-                          <img
-                            className="recipes__img"
-                            alt="food"
-                            // src={el.imageURL}
-                            src={el.imagePath}
-                          />
-                          <div className="recipes__list-name">{el.name}</div>
-                        </div>
-                      );
-                    })}
-                  
-                  </div>*/}
+                  {/*<Posts posts={currentPosts} />*/}
+                  <Posts posts={currentPosts} loading={loading} />
+                  {console.log(RECIPES)}
+                  <Pagination
+                    postsPerPage={postsPerPage}
+                    totalPosts={posts.length}
+                    paginate={paginate}
+                  />
                 </div>
               </div>
             </div>

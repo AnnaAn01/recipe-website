@@ -733,7 +733,7 @@
     "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
   },
   {
-    "name": "Crock Pot Roast",
+    "name": "Page 2 Crock Pot Roast",
     "ingredients": [
       {
         "quantity": "1",
@@ -769,7 +769,7 @@
     ],
     "timers": [0, 0, 0, 420],
     "imageURL": "https://i.pinimg.com/564x/7f/a0/29/7fa02954fc46b2c1cb39111179b01bb7.jpg",
-    "imagePath": "recipe-img/crock-pot-roast.jpg",
+    "imagePath": "recipe-img/page-2.jpg",
 
     "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208"
   },
@@ -806,7 +806,7 @@
     ],
     "timers": [0, 0, 0, 0, 0, 0, 10, 0, 0, 0],
     "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg",
-    "imagePath": "recipe-img/roasted-asparagus.jpg",
+    "imagePath": "recipe-img/page-2.jpg",
     "originalURL": "http://www.food.com/recipe/roasted-asparagus-50847"
   },
   {
@@ -847,7 +847,7 @@
     ],
     "timers": [0, 0, 20, 20, 0],
     "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg",
-    "imagePath": "recipe-img/curried-lentils-and-rice.jpg"
+    "imagePath": "recipe-img/page-2.jpg"
   },
   {
     "name": "Big Night Pizza",
@@ -904,7 +904,7 @@
     ],
     "timers": [15, 60, 0, 0, 0, 15, 0],
     "imageURL": "http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg",
-    "imagePath": "recipe-img/big-night-pizza-2.jpg"
+    "imagePath": "recipe-img/page-2.jpg"
   },
   {
     "name": "Cranberry and Apple Stuffed Acorn Squash",
@@ -952,7 +952,7 @@
     ],
     "timers": [0, 0, 0, 30, 0, 0, 30, 0],
     "imageURL": "http://elanaspantry.com/wp-content/uploads/2008/10/acorn_squash_with_cranberry.jpg",
-    "imagePath": "recipe-img/cranberry-and-apple-stuffed-acorn-squash.jpg",
+    "imagePath": "recipe-img/page-2.jpg",
     "originalURL": ""
   },
   {
@@ -992,7 +992,7 @@
     ],
     "timers": [0, 0, 0, 30, 0, 0, 5, 0, 30],
     "imageURL": "http://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg",
-    "imagePath": "recipe-img/yorkshire-puds.jpg",
+    "imagePath": "recipe-img/page-2.jpg",
     "originalURL": "http://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg"
   },
   {
@@ -1073,7 +1073,7 @@
     ],
     "timers": [15, 0, 0, 0, 0, 0, 0, 0, 8, 0],
     "imageURL": "http://s3.amazonaws.com/gmi-digital-library/65caecf7-a8f7-4a09-8513-2659cf92871e.jpg",
-    "imagePath": "recipe-img/old-fashioned-oatmeal-cookies.jpg",
+    "imagePath": "recipe-img/page-2.jpg",
     "originalURL": "#"
   },
   {
@@ -1142,7 +1142,7 @@
     ],
     "timers": [10, 1, 60, 0, 0, 45, 0, 0],
     "imageURL": "http://www.canadianliving.com/img/photos/biz/blueberry-oatmeal-squares5801359401371.jpg",
-    "imagePath": "recipe-img/blueberry-oatmeal-squares.jpg",
+    "imagePath": "recipe-img/page-2.jpg",
     "originalURL": "http://www.canadianliving.com/food/blueberry_oatmeal_squares.php"
   },
   {
@@ -1222,7 +1222,7 @@
     ],
     "timers": [0, 0, 0, 6, 0, 0, 0, 0, 0],
     "imageURL": "http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg",
-    "imagePath": "recipe-img/curried-chicken-salad.jpg",
+    "imagePath": "recipe-img/page-2.jpg",
     "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
   },
   {
@@ -1302,7 +1302,7 @@
     ],
     "timers": [0, 0, 0, 6, 0, 0, 0, 0, 0],
     "imageURL": "http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg",
-    "imagePath": "recipe-img/tomato-spinach-pasta.jpg",
+    "imagePath": "recipe-img/page-2.jpg",
     "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
   },
   {
@@ -1382,7 +1382,7 @@
     ],
     "timers": [0, 0, 0, 6, 0, 0, 0, 0, 0],
     "imageURL": "http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg",
-    "imagePath": "recipe-img/korean-spicy-braised-chicken-stew.jpg",
+    "imagePath": "recipe-img/page-2.jpg",
     "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
   },
   {
@@ -1462,11 +1462,11 @@
     ],
     "timers": [0, 0, 0, 6, 0, 0, 0, 0, 0],
     "imageURL": "http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg",
-    "imagePath": "recipe-img/avocado-toast.jpg",
+    "imagePath": "recipe-img/page-2.jpg",
     "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
   },
   {
-    "name": "Crock Pot Roast",
+    "name": "Page 3 Crock Pot Roast",
     "ingredients": [
       {
         "quantity": "1",
@@ -1502,7 +1502,7 @@
     ],
     "timers": [0, 0, 0, 420],
     "imageURL": "https://i.pinimg.com/564x/7f/a0/29/7fa02954fc46b2c1cb39111179b01bb7.jpg",
-    "imagePath": "recipe-img/crock-pot-roast.jpg",
+    "imagePath": "recipe-img/page-3.jpg",
 
     "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208"
   },
@@ -1539,7 +1539,7 @@
     ],
     "timers": [0, 0, 0, 0, 0, 0, 10, 0, 0, 0],
     "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg",
-    "imagePath": "recipe-img/roasted-asparagus.jpg",
+    "imagePath": "recipe-img/page-3.jpg",
     "originalURL": "http://www.food.com/recipe/roasted-asparagus-50847"
   },
   {
@@ -1580,7 +1580,7 @@
     ],
     "timers": [0, 0, 20, 20, 0],
     "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg",
-    "imagePath": "recipe-img/curried-lentils-and-rice.jpg"
+    "imagePath": "recipe-img/page-3.jpg"
   },
   {
     "name": "Big Night Pizza",
@@ -1637,7 +1637,7 @@
     ],
     "timers": [15, 60, 0, 0, 0, 15, 0],
     "imageURL": "http://upload.wikimedia.org/wikipedia/commons/c/c7/Spinach_pizza.jpg",
-    "imagePath": "recipe-img/big-night-pizza-2.jpg"
+    "imagePath": "recipe-img/page-3.jpg"
   },
   {
     "name": "Cranberry and Apple Stuffed Acorn Squash",
@@ -1685,7 +1685,7 @@
     ],
     "timers": [0, 0, 0, 30, 0, 0, 30, 0],
     "imageURL": "http://elanaspantry.com/wp-content/uploads/2008/10/acorn_squash_with_cranberry.jpg",
-    "imagePath": "recipe-img/cranberry-and-apple-stuffed-acorn-squash.jpg",
+    "imagePath": "recipe-img/page-3.jpg",
     "originalURL": ""
   },
   {
@@ -1725,7 +1725,7 @@
     ],
     "timers": [0, 0, 0, 30, 0, 0, 5, 0, 30],
     "imageURL": "http://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg",
-    "imagePath": "recipe-img/yorkshire-puds.jpg",
+    "imagePath": "recipe-img/page-3.jpg",
     "originalURL": "http://upload.wikimedia.org/wikipedia/commons/f/f9/Yorkshire_Pudding.jpg"
   },
   {
@@ -1806,7 +1806,7 @@
     ],
     "timers": [15, 0, 0, 0, 0, 0, 0, 0, 8, 0],
     "imageURL": "http://s3.amazonaws.com/gmi-digital-library/65caecf7-a8f7-4a09-8513-2659cf92871e.jpg",
-    "imagePath": "recipe-img/old-fashioned-oatmeal-cookies.jpg",
+    "imagePath": "recipe-img/page-3.jpg",
     "originalURL": "#"
   },
   {
@@ -1875,7 +1875,7 @@
     ],
     "timers": [10, 1, 60, 0, 0, 45, 0, 0],
     "imageURL": "http://www.canadianliving.com/img/photos/biz/blueberry-oatmeal-squares5801359401371.jpg",
-    "imagePath": "recipe-img/blueberry-oatmeal-squares.jpg",
+    "imagePath": "recipe-img/page-3.jpg",
     "originalURL": "http://www.canadianliving.com/food/blueberry_oatmeal_squares.php"
   },
   {
@@ -1955,7 +1955,7 @@
     ],
     "timers": [0, 0, 0, 6, 0, 0, 0, 0, 0],
     "imageURL": "http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg",
-    "imagePath": "recipe-img/curried-chicken-salad.jpg",
+    "imagePath": "recipe-img/page-3.jpg",
     "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
   },
   {
@@ -2035,7 +2035,7 @@
     ],
     "timers": [0, 0, 0, 6, 0, 0, 0, 0, 0],
     "imageURL": "http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg",
-    "imagePath": "recipe-img/tomato-spinach-pasta.jpg",
+    "imagePath": "recipe-img/page-3.jpg",
     "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
   },
   {
@@ -2115,7 +2115,7 @@
     ],
     "timers": [0, 0, 0, 6, 0, 0, 0, 0, 0],
     "imageURL": "http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg",
-    "imagePath": "recipe-img/korean-spicy-braised-chicken-stew.jpg",
+    "imagePath": "recipe-img/page-3.jpg",
     "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
   },
   {
@@ -2195,7 +2195,7 @@
     ],
     "timers": [0, 0, 0, 6, 0, 0, 0, 0, 0],
     "imageURL": "http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg",
-    "imagePath": "recipe-img/avocado-toast.jpg",
+    "imagePath": "recipe-img/page-3.jpg",
     "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
   }
 ]

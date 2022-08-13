@@ -1,10 +1,13 @@
 import React from "react";
 import RECIPES from "../SearchBar/RECIPES.json";
 
-const Posts = () => {
+const Posts = ({ posts, loading }) => {
+  if (loading) {
+    return <h2>Loading...</h2>;
+  }
   return (
     <div className="recipes__list-parent">
-      {RECIPES.map((el, index) => {
+      {posts.map((el, index) => {
         return (
           <div
             key={index}
