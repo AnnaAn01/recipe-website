@@ -7,6 +7,8 @@ import { MdRestaurantMenu } from "react-icons/md";
 import Posts from "./Posts";
 import Pagination from "./Pagination";
 import ReactPaginate from "react-paginate";
+import { Link } from "react-router-dom";
+import RecipePages from "./RecipePages/RecipePages";
 
 const Recipes = () => {
   const [posts, setPosts] = useState([]);
@@ -45,7 +47,9 @@ const Recipes = () => {
               <div className="recipes__all-list-container">
                 <div className="recipes__all-list-wrapper">
                   {/*<Posts posts={currentPosts} />*/}
-                  <Posts posts={currentPosts} loading={loading} />
+                  <Link to="/recipe-pages">
+                    <Posts posts={currentPosts} loading={loading} />
+                  </Link>
 
                   <Pagination
                     postsPerPage={postsPerPage}

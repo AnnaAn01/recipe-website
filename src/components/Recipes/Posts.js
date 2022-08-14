@@ -9,11 +9,7 @@ const Posts = ({ posts, loading }) => {
     <div className="recipes__list-parent">
       {posts.map((el, index) => {
         return (
-          <div
-            key={index}
-            className="recipes__list"
-            id={`recipes__list-${index + 1}`}
-          >
+          <div key={index} className="recipes__list" id={el.id}>
             <img
               className="recipes__img"
               alt="food"
