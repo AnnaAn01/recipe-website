@@ -46,7 +46,6 @@ const Recipes = () => {
               </div>
               <div className="recipes__all-list-container">
                 <div className="recipes__all-list-wrapper">
-                  {/*<Posts posts={currentPosts} />*/}
                   <Link to="/recipe-pages">
                     <Posts posts={currentPosts} loading={loading} />
                   </Link>
