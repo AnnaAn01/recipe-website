@@ -46,8 +46,8 @@ const Recipes = () => {
               </div>
               <div className="recipes__all-list-container">
                 <div className="recipes__all-list-wrapper">
-                  <Link to="/recipe-pages">
-                    <Posts posts={currentPosts} loading={loading} />
+                  <Link to="/recipe-pages" handleClick>
+                    <Posts posts={currentPosts} loading={loading}></Posts>
                   </Link>
 
                   <Pagination
