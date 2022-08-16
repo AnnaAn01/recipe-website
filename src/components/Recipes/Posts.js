@@ -5,11 +5,21 @@ const Posts = ({ posts, loading }) => {
   if (loading) {
     return <h2>Loading...</h2>;
   }
+
+  const handleClick = (index, el) => {
+    console.log(el);
+  };
   return (
     <div className="recipes__list-parent">
       {posts.map((el, index) => {
         return (
-          <div key={index} className="recipes__list" id={el.id}>
+          <div
+            key={index}
+            className="recipes__list"
+            id={el.id}
+            src={el}
+            onClick={(el) => handleClick(el, index)}
+          >
             <img
               className="recipes__img"
               alt="food"
