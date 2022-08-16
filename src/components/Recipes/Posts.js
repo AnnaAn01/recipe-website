@@ -6,7 +6,7 @@ const Posts = ({ posts, loading }) => {
     return <h2>Loading...</h2>;
   }
 
-  const handleClick = (el, index) => {
+  const handleClick = (index, el) => {
     // return el.name;
     console.log(el.name);
   };
@@ -19,7 +19,7 @@ const Posts = ({ posts, loading }) => {
             className="recipes__list"
             id={el.id}
             src={el}
-            onClick={(element) => handleClick(element, index)}
+            onClick={(index) => handleClick(index, el)}
           >
             <img
               className="recipes__img"
