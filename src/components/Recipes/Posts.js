@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import RECIPES from "../SearchBar/RECIPES.json";
 
 const Posts = ({ posts, loading }) => {
@@ -7,14 +7,20 @@ const Posts = ({ posts, loading }) => {
   }
 
   const handleClick = (index, el) => {
-    // return el.name;
     console.log(el.name);
+
+    // console.log(el.steps);
+
+    return <h1 className="h111">something {el.name}</h1>;
+    // setIndivPost(el.name);
   };
+
   return (
     <div className="recipes__list-parent">
       {posts.map((el, index) => {
         return (
           <div
+            name={el.name}
             key={index}
             className="recipes__list"
             id={el.id}

@@ -22,8 +22,8 @@ import "./RecipePages.css";
 import Posts from "../Posts";
 import Recipes from "../Recipes";
 
-const RecipePages = ({}) => {
-  return <div className="recipe-pages">Some element here</div>;
+const RecipePages = ({ key, handleClick }) => {
+  return <div className="recipe-pages">RecipePages</div>;
 };
 
 export default RecipePages;
