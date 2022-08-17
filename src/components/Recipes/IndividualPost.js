@@ -17,10 +17,10 @@
 // export default RecipePages;
 
 import React from "react";
-import RECIPES from "../../SearchBar/RECIPES.json";
-import "./RecipePages.css";
-import Posts from "../Posts";
-import Recipes from "../Recipes";
+import RECIPES from "../SearchBar/RECIPES.json";
+import "./IndividualPost";
+import Posts from "./Posts";
+// import Recipes from "../Recipes";
 
 const RecipePages = ({ key, handleClick, postsList, clickedId }) => {
   return <div className="recipe-pages">RecipePages {clickedId}</div>;

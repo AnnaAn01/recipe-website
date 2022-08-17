@@ -9,6 +9,7 @@ import Pagination from "./Pagination";
 import ReactPaginate from "react-paginate";
 import { Link } from "react-router-dom";
 import RecipePages from "./RecipePages/RecipePages";
+import IndividualPost from "./IndividualPost";
 
 const Recipes = () => {
   const [posts, setPosts] = useState([]);
