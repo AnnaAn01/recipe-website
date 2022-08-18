@@ -18,12 +18,15 @@
 
 import React from "react";
 import RECIPES from "../SearchBar/RECIPES.json";
-import "./IndividualPost";
-import Posts from "./Posts";
-// import Recipes from "../Recipes";
+import "./IndividualPost.css";
 
-const RecipePages = ({ key, handleClick, postsList, clickedId }) => {
-  return <div className="recipe-pages">RecipePages {clickedId}</div>;
+const IndividualPost = ({ postid }) => {
+  return (
+    <div className="recipe-pages" key={postid} id={postid}>
+      IndividualPost {RECIPES.postid} {console.log(postid)}
+      <h1>Something</h1>
+    </div>
+  );
 };
 
-export default RecipePages;
+export default IndividualPost;

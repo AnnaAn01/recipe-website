@@ -16,14 +16,14 @@
 
 // export default RecipePages;
 
-import React from "react";
-import RECIPES from "../../SearchBar/RECIPES.json";
-import "./RecipePages.css";
-import Posts from "../Posts";
-import Recipes from "../Recipes";
+// import React from "react";
+// import RECIPES from "../../SearchBar/RECIPES.json";
+// import "./RecipePages.css";
+// import Posts from "../Posts";
+// import Recipes from "../Recipes";
 
-const RecipePages = ({ key, handleClick, postsList, clickedId }) => {
-  return <div className="recipe-pages">RecipePages {clickedId}</div>;
-};
+// const RecipePages = ({ key, handleClick, postsList, clickedId }) => {
+//   return <div className="recipe-pages">RecipePages {clickedId}</div>;
+// };
 
-export default RecipePages;
+// export default RecipePages;
