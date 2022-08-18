@@ -34,8 +34,9 @@ import AboutPage from "./components/AboutPage/AboutPage";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Recipes from "./components/Recipes/Recipes";
 import IndividualPost from "./components/Recipes/IndividualPost";
+import RECIPES from "./components/SearchBar/RECIPES.json";
 
-function App({ postid }) {
+function App() {
   return (
     <Router>
       <Navbar />
@@ -43,7 +44,7 @@ function App({ postid }) {
         <Route path="/" exact element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/recipe" element={<Recipes />} />
-        <Route path="/recipe-pages" element={<IndividualPost />} />
+        <Route path="/recipe-pages/:postid" element={<IndividualPost />} />
       </Routes>
       <Footer />
     </Router>

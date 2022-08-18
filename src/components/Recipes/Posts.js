@@ -58,34 +58,35 @@
 
 // export default Posts;
 
-import React from "react";
+import React, { useParams } from "react";
 import RECIPES from "../SearchBar/RECIPES.json";
 import { Link } from "react-router-dom";
 import IndividualPost from "./IndividualPost";
 
-const Posts = ({ posts, loading, setPostid, postid }) => {
+const Posts = ({ posts, loading, setPostid }) => {
   if (loading) {
     return <h2>Loading...</h2>;
   }
+  // let { userId } = useParams();
 
   let clickedId = [];
   const handleClick = (index, el) => {
     // console.log(el.name);
-    console.log(el.id);
-    console.log(typeof el.id);
-    setPostid(el.id);
+    // console.log(el.id);
+    // console.log(typeof el.id);
+    // setPostid(el.id);
 
     clickedId.push(el.id);
   };
 
-  console.log("posts postid", postid);
+  // console.log("posts postid");
 
   const postsList = posts.map((el, index) => {
     return (
-      <Link to="/recipe-pages">
+      <Link to={`/recipe-pages/:${index}`}>
         <div
           name={el.name}
-          key={el.id}
+          key={el.index}
           className="recipes__list"
           id={el.id}
           src={el}

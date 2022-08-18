@@ -87,7 +87,7 @@ const Recipes = () => {
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(12);
-  const [postid, setPostid] = useState(0);
+  // const [postid, setPostid] = useState(0);
 
   // Change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
@@ -118,13 +118,7 @@ const Recipes = () => {
               </div>
               <div className="recipes__all-list-container">
                 <div className="recipes__all-list-wrapper">
-                  <Posts
-                    posts={currentPosts}
-                    loading={loading}
-                    setPostid={setPostid}
-                  >
-                    {console.log(postid)}
-                  </Posts>
+                  <Posts posts={currentPosts} loading={loading}></Posts>
 
                   <Pagination
                     postsPerPage={postsPerPage}
