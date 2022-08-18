@@ -23,21 +23,17 @@ import { useParams } from "react-router-dom";
 
 const IndividualPost = () => {
   const params = useParams();
-  // let id = JSON.parse(params);
-  // console.log(id);
-  // console.log(typeof params);
+  // getting the clicked post id from the router
   let id = Number(params.postid.substring(1));
   console.log(typeof id);
   console.log(id);
-  // console.log("this is the id", id);
-  // console.log("params.postid", params.postid);
-  // console.log("params.postid", params.postid);
-  // console.log("typeof params.postid", typeof params.postid);
 
   return (
     <div className="recipe-pages recipe-pages/:postid">
-      IndividualPost
-      <h1>{RECIPES[id].name}</h1>
+      <div className="individual-post__wrapper">
+        <h1 className="individual-post__title">{RECIPES[id].name}</h1>
+        <div className="individual-post__opening-text">{RECIPES[id].steps}</div>
+      </div>
     </div>
   );
 };

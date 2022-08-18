@@ -1,10 +1,37 @@
 .recipe-pages {
   height: 220vh;
   /* background-color: yellow; */
-  font-size: 5rem;
-  color: red;
+  display: flex;
+  background-color: rgb(249, 244, 244);
+  padding: 0rem 15rem;
+  /* height: auto; */
+  flex-direction: column;
 }
 
-.h111 {
-  font-size: 5rem;
+.individual-post__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+  /* height: 90vh; */
+  /* grid-gap: 10rem; */
+  height: auto;
+}
+
+.individual-post__title {
+  font-size: 3rem;
+  color: red;
+  background-color: yellow;
+  padding: 2rem 0rem;
+}
+
+.individual-post__opening-text {
+  font-size: 2rem;
+  background-color: greenyellow;
+  padding: 2rem 0rem;
+  text-align: justify;
+  /* text-justify: inter-word; */
+  text-justify: auto;
 }
