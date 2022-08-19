@@ -38,6 +38,8 @@ import ReactPaginate from "react-paginate";
 
 const Pagination = ({ postsPerPage, totalPosts, paginate, currentPage }) => {
   const pageNumbers = [];
+  // console.log(pageNumbers);
+  // console.log(currentPage);
 
   for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
     pageNumbers.push(i);

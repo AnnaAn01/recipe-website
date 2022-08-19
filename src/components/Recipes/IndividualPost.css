@@ -6,32 +6,71 @@
   padding: 0rem 15rem;
   /* height: auto; */
   flex-direction: column;
+  /* width: 75rem; */
 }
 
 .individual-post__wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   flex-wrap: wrap;
   display: grid;
   /* grid-template-columns: 1fr 1fr; */
   /* height: 90vh; */
   /* grid-gap: 10rem; */
   height: auto;
+  /* width: 100rem; */
+  /* width: 75rem; */
 }
 
 .individual-post__title {
-  font-size: 3rem;
+  font-size: 5rem;
   color: red;
-  background-color: yellow;
+  /* background-color: yellow; */
   padding: 2rem 0rem;
+  /* width: 75rem; */
 }
 
 .individual-post__opening-text {
   font-size: 2rem;
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
   padding: 2rem 0rem;
   text-align: justify;
   /* text-justify: inter-word; */
   text-justify: auto;
+  width: 75rem;
+}
+
+.individual-post__img-wrapper {
+  width: 75rem;
+}
+
+.individual-recipe__img {
+  width: 75rem;
+  object-fit: cover;
+  /* object-fit: contain; */
+  height: 40vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.individual-post__steps {
+  /* background-color: aquamarine; */
+  padding: 2rem 0rem;
+  width: 75rem;
+}
+
+.recipe-steps {
+  display: inline;
+  font-size: 2rem;
+  width: 75rem;
+}
+
+.individual-post__ingredients-wrapper {
+  height: 20rem;
+  /* background-color: pink; */
+}
+
+.individual-post__ingredients-name {
+  font-size: 2rem;
 }
