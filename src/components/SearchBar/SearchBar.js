@@ -117,12 +117,18 @@ import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import Img1 from "../../images-src/recipe-img/big-night-pizza-1.jpg";
 
-const SearchBar = () => {
+const SearchBar = (posts) => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const params = useParams();
   // let id = Number(params.postid.substring(1));
-  console.log("params inside searchbar", params.postid);
+  // console.log("params inside searchbar", params.postid);
+  // console.log(
+  //   "posts inside searchbar",
+  //   posts.map((el, index) => {
+  //     return el.name;
+  //   })
+  // );
 
   return (
     <div className="search-container">
@@ -166,7 +172,10 @@ const SearchBar = () => {
           return (
             <div className="search__value-div" key={key}>
               <p className="search__value-p">
-                <Link to="/about" className="search__value-link-returned">
+                <Link
+                  to={`/recipe-pages/:${val.id - 1}`}
+                  className="search__value-link-returned"
+                >
                   {val.name}
                 </Link>
               </p>

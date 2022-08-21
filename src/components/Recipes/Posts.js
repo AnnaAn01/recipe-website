@@ -76,10 +76,9 @@ const Posts = ({ posts, loading, setPostid, currentPage, postsPerPage }) => {
     // console.log(el.id);
     // console.log(typeof el.id);
     // setPostid(el.id);
-
     // clickedId.push(el.id);
-    console.log(currentPage);
-    console.log(el.page);
+    // console.log(currentPage);
+    // console.log(el.page);
   };
 
   // console.log("posts postid");
