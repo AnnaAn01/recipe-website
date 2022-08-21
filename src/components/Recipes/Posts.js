@@ -82,7 +82,7 @@ const Posts = ({ posts, loading, setPostid, currentPage, postsPerPage }) => {
   };
 
   // console.log("posts postid");
-  let numberOfPostsPerPage = postsPerPage;
+  // let numberOfPostsPerPage = postsPerPage;
   // console.log(numberOfPostsPerPage);
 
   const postsList = posts.map((el, index) => {

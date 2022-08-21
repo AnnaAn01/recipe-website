@@ -1,21 +1,3 @@
-// import React from "react";
-// import RECIPES from "../../SearchBar/RECIPES.json";
-// import "./RecipePages.css";
-// import Posts from "../Posts";
-// import Recipes from "../Recipes";
-
-// const RecipePages = ({ currentPosts, loading, posts, handleClick }) => {
-//   return (
-//     <div className="recipe-pages">
-//       {RECIPES.map((el, index) => {
-//         return <div>{el.name} </div>;
-//       })}
-//     </div>
-//   );
-// };
-
-// export default RecipePages;
-
 import React from "react";
 import RECIPES from "../SearchBar/RECIPES.json";
 import "./IndividualPost.css";
@@ -60,7 +42,7 @@ const IndividualPost = () => {
               return (
                 <div key={index}>
                   {item.ingredients.map((c, i) => (
-                    <div key={index}>
+                    <div key={`recipewrapper${index}`}>
                       <li
                         key={index}
                         className="individual-post__ingredients-name"

@@ -171,14 +171,21 @@ const SearchBar = (posts) => {
         }).map((val, key) => {
           return (
             <div className="search__value-div" key={key}>
-              <p className="search__value-p">
+              <div className="search__value-p">
                 <Link
                   to={`/recipe-pages/:${val.id - 1}`}
                   className="search__value-link-returned"
                 >
-                  {val.name}
+                  <div className="search__value-name">{val.name}</div>
+                  <div className="search__value-img-wrapper">
+                    <img
+                      className="search__value-img"
+                      alt="food"
+                      src={val.imagePath}
+                    />
+                  </div>
                 </Link>
-              </p>
+              </div>
             </div>
           );
         })}
