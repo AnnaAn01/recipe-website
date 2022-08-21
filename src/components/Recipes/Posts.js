@@ -84,7 +84,7 @@ const Posts = ({ posts, loading, setPostid, currentPage, postsPerPage }) => {
 
   // console.log("posts postid");
   let numberOfPostsPerPage = postsPerPage;
-  console.log(numberOfPostsPerPage);
+  // console.log(numberOfPostsPerPage);
 
   const postsList = posts.map((el, index) => {
     return (
@@ -96,7 +96,7 @@ const Posts = ({ posts, loading, setPostid, currentPage, postsPerPage }) => {
           // el.page === 1 ? index : 12 * (el.page - 1) + index
         }`}
       >
-        {console.log(postsPerPage)}
+        {/*{console.log(postsPerPage)}*/}
         {/*<Link to={`/recipe-pages/:${index}`}>*/}
         <div
           name={el.name}
@@ -106,7 +106,7 @@ const Posts = ({ posts, loading, setPostid, currentPage, postsPerPage }) => {
           src={el}
           onClick={(index) => handleClick(index, el)}
         >
-          {console.log(el.currentPage)}
+          {/*{console.log(el.currentPage)}*/}
           <img className="recipes__img" alt="food" src={el.imagePath} />
           <div className="recipes__list-name">
             {el.name}

@@ -58,10 +58,13 @@ const IndividualPost = () => {
           {RECIPES.map((item, index) => {
             if (index === id) {
               return (
-                <div>
+                <div key={index}>
                   {item.ingredients.map((c, i) => (
-                    <div>
-                      <li className="individual-post__ingredients-name">
+                    <div key={index}>
+                      <li
+                        key={index}
+                        className="individual-post__ingredients-name"
+                      >
                         {c.name} - {c.quantity}
                       </li>
                     </div>
