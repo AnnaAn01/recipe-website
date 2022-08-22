@@ -154,9 +154,12 @@
 
 .homepage-second__section-title {
   width: auto;
-  margin: 2rem 3rem;
-  font-size: 3rem;
-  color: #6b5b31;
+  margin: 3rem 3rem;
+  font-size: 4rem;
+  /* color: #6b5b31; */
+  color: black;
+  font-family: "Dancing Script";
+  font-weight: bolder;
 }
 
 .homepage-second__card {

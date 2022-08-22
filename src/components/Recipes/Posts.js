@@ -94,6 +94,7 @@ const Posts = ({ posts, loading, setPostid, currentPage, postsPerPage }) => {
           // Or we can use the page I manually added to the json file
           // el.page === 1 ? index : 12 * (el.page - 1) + index
         }`}
+        className="recipes__list-link"
       >
         {/*{console.log(postsPerPage)}*/}
         {/*<Link to={`/recipe-pages/:${index}`}>*/}
@@ -107,10 +108,7 @@ const Posts = ({ posts, loading, setPostid, currentPage, postsPerPage }) => {
         >
           {/*{console.log(el.currentPage)}*/}
           <img className="recipes__img" alt="food" src={el.imagePath} />
-          <div className="recipes__list-name">
-            {el.name}
-            {index}
-          </div>
+          <div className="recipes__list-name">{el.name}</div>
         </div>
       </Link>
     );

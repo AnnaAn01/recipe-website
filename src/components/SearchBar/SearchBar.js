@@ -115,6 +115,7 @@ import "./SearchBar.css";
 import RECIPES from "./RECIPES.json";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
+import { ImSpoonKnife } from "react-icons/im";
 import Img1 from "../../images-src/recipe-img/big-night-pizza-1.jpg";
 
 const SearchBar = (posts) => {
@@ -171,12 +172,14 @@ const SearchBar = (posts) => {
         }).map((val, key) => {
           return (
             <div className="search__value-div" key={key}>
-              <div className="search__value-p">
+              <div className="search__value-wrapper">
                 <Link
                   to={`/recipe-pages/:${val.id - 1}`}
                   className="search__value-link-returned"
                 >
-                  <div className="search__value-name">{val.name}</div>
+                  <div className="search__value-name">
+                    <ImSpoonKnife className="search__spoon-icon" /> {val.name}
+                  </div>
                   <div className="search__value-img-wrapper">
                     <img
                       className="search__value-img"
