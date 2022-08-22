@@ -115,8 +115,14 @@ import React from "react";
 import "./HomePage.css";
 
 import SearchBar from "../SearchBar/SearchBar";
+import RECIPES from "../SearchBar/RECIPES.json";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
       <div className="homepage__title-area">
@@ -163,56 +169,76 @@ const HomePage = () => {
             Latest Quick Recipes
           </h1>
           {/*Second section cards */}
+
           <div className="homepage-second__card">
             <div className="second-card__img second-card__img-1">
+              <img
+                src={RECIPES[0].imagePath}
+                alt="img"
+                className="second-card__img second-card__img-1"
+              />
               <div className="card__img--overlay"></div>
             </div>
             <div className="second-card__text ">
-              <div className="second-card__title">Food name here</div>
+              <div className="second-card__title">{RECIPES[0].name}</div>
               <div className="second-card__description">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s.
+                {RECIPES[0].steps}...
               </div>
-              <a href="#" className="second-card__button-continue">
+              <Link
+                onClick={() => handleClick()}
+                to={`/recipe-pages/:${RECIPES[0].id - 1}`}
+                className="second-card__button-continue"
+              >
                 Continue Reading
-              </a>
+              </Link>
             </div>
           </div>
           <div className="homepage-second__devider-line"></div>
           <div className="homepage-second__card">
-            <div className="second-card__img second-card__img-2">
+            <div className="second-card__img second-card__img-1">
+              <img
+                src={RECIPES[1].imagePath}
+                alt="img"
+                className="second-card__img second-card__img-2"
+              />
               <div className="card__img--overlay"></div>
             </div>
             <div className="second-card__text ">
-              <div className="second-card__title">Food name here</div>
+              <div className="second-card__title">{RECIPES[1].name}</div>
               <div className="second-card__description">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s. Lorem Ipsum has been the industry's
-                standard dummy.
+                {RECIPES[1].steps.slice(0, 2)}...
               </div>
-              <a href="#" className="second-card__button-continue">
+              <Link
+                onClick={() => handleClick()}
+                to={`/recipe-pages/:${RECIPES[1].id - 1}`}
+                className="second-card__button-continue"
+              >
                 Continue Reading
-              </a>
+              </Link>
             </div>
           </div>
           <div className="homepage-second__devider-line"></div>
           <div className="homepage-second__card">
-            <div className="second-card__img second-card__img-3">
+            <div className="second-card__img second-card__img-1">
+              <img
+                src={RECIPES[2].imagePath}
+                alt="img"
+                className="second-card__img second-card__img-1"
+              />
               <div className="card__img--overlay"></div>
             </div>
             <div className="second-card__text ">
-              <div className="second-card__title">Food name here</div>
+              <div className="second-card__title">{RECIPES[2].name}</div>
               <div className="second-card__description">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s. Lorem Ipsum has been the industry's
-                standard dummy text ever since the 1500s.
+                {RECIPES[2].steps}...
               </div>
-              <a href="#" className="second-card__button-continue">
+              <Link
+                onClick={() => handleClick()}
+                to={`/recipe-pages/:${RECIPES[2].id - 1}`}
+                className="second-card__button-continue"
+              >
                 Continue Reading
-              </a>
+              </Link>
             </div>
           </div>
           <div className="homepage-second__devider-line"></div>
