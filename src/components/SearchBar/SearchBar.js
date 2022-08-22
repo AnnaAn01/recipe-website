@@ -121,16 +121,6 @@ import Img1 from "../../images-src/recipe-img/big-night-pizza-1.jpg";
 const SearchBar = (posts) => {
   const [searchTerm, setSearchTerm] = useState("");
 
-  const params = useParams();
-  // let id = Number(params.postid.substring(1));
-  // console.log("params inside searchbar", params.postid);
-  // console.log(
-  //   "posts inside searchbar",
-  //   posts.map((el, index) => {
-  //     return el.name;
-  //   })
-  // );
-
   return (
     <div className="search-container">
       <BsSearch className="search-icon" />

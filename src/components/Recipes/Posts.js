@@ -79,6 +79,7 @@ const Posts = ({ posts, loading, setPostid, currentPage, postsPerPage }) => {
     // clickedId.push(el.id);
     // console.log(currentPage);
     // console.log(el.page);
+    window.scrollTo(0, 0);
   };
 
   // console.log("posts postid");
