@@ -1,5 +1,5 @@
 .recipe-pages {
-  height: 220vh;
+  height: auto;
   /* background-color: yellow; */
   display: flex;
   background-color: rgb(249, 244, 244);
@@ -21,6 +21,7 @@
   height: auto;
   /* width: 100rem; */
   /* width: 75rem; */
+  padding-bottom: 5rem;
   /* background-color: yellow; */
 }
 
@@ -81,6 +82,8 @@
 .individual-post__ingredients-wrapper {
   height: 20rem;
   /* background-color: pink; */
+  padding-bottom: 5rem;
+  height: auto;
 }
 
 .individual-post__ingredients-name {

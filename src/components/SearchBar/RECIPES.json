@@ -757,41 +757,78 @@
     "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
   },
   {
-    "name": "Page 2 Crock Pot Roast",
+    "name": "Delicious Tteokbokki aka. Spicy Rice Cake",
     "id": 13,
     "page": 2,
     "ingredients": [
       {
-        "quantity": "1",
-        "name": "beef roast",
-        "type": "Meat"
+        "quantity": "300 g / 10.6 ounces",
+        "name": "Rice cakes",
+        "type": "main"
       },
       {
-        "quantity": "1 package",
-        "name": "brown gravy mix",
-        "type": "Baking"
+        "quantity": "120 g / 4.2 ounces",
+        "name": "fish cakes (optional)",
+        "type": "main"
       },
       {
-        "quantity": "1 package",
-        "name": "dried Italian salad dressing mix",
-        "type": "Condiments"
+        "quantity": "350ml / 1.5 cups",
+        "name": "dried anchovy and dried kelp soup",
+        "type": "main"
       },
       {
-        "quantity": "1 package",
-        "name": "dry ranch dressing mix",
-        "type": "Condiments"
+        "quantity": "50g / 1.7 ounces",
+        "name": "sliced onion",
+        "type": "main"
       },
       {
-        "quantity": "1/2 cup",
-        "name": "water",
-        "type": "Drinks"
+        "quantity": "28 g / 2 tbsp",
+        "name": "Korean chili paste (gochujang)",
+        "type": "Sauce"
+      },
+      {
+        "quantity": "7g / 0.5 tbsp",
+        "name": "sugar",
+        "type": "Sauce"
+      },
+      {
+        "quantity": "10 g / 0.7 tbsp",
+        "name": "soy sauce",
+        "type": "Sauce"
+      },
+      {
+        "quantity": "10 g / 0.7 tbsp",
+        "name": "minced garlic",
+        "type": "Sauce"
+      },
+      {
+        "quantity": "10 g / 0.7 tbsp",
+        "name": "Korean chili flakes (gochukaru)",
+        "type": "Sauce"
+      },
+      {
+        "quantity": "10 g / 0.7 tbsp",
+        "name": "roasted sesame seeds",
+        "type": "Garnish"
+      },
+      {
+        "quantity": "10 g / 0.7 tbsp",
+        "name": "sesame oil",
+        "type": "Garnish"
+      },
+      {
+        "quantity": "60 g / 2.1 ounces",
+        "name": "chopped green onion",
+        "type": "Garnish"
       }
     ],
     "steps": [
-      "Place beef roast in crock pot.",
-      "Mix the dried mixes together in a bowl and sprinkle over the roast.",
-      "Pour the water around the roast.",
-      "Cook on low for 7-9 hours."
+      "Soak rice cakes in warm water for 10 mins (unless already soft).",
+      "Boil the dried anchovy and dried kelp stock in a pot over medium high heat, add the sauce ingredients and stir them until completely dissolved.",
+      "Bring it to a boil and add the rice cake, fish cake and sliced onion.",
+      "Boil them for about 5 minutes, check if the rice cakes are soft to chew.",
+      "If the sauce isn't thick enough, boil it for another 3 mintes.",
+      "Lastly, add the chopped green onion, sesame oil and sesame seeds. Enjoy!"
     ],
     "timers": [0, 0, 0, 420],
     "imageURL": "https://i.pinimg.com/564x/7f/a0/29/7fa02954fc46b2c1cb39111179b01bb7.jpg",

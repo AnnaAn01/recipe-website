@@ -164,7 +164,8 @@
 
 .homepage-second__card {
   display: flex;
-  height: 25rem;
+  /* height: 25rem; */
+  height: auto;
   padding: 1rem 3rem;
   /* background-color: red; */
   flex-direction: row;

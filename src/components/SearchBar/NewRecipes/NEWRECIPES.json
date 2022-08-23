@@ -37,7 +37,6 @@
       "Cook on low for 7-9 hours."
     ],
     "timers": [0, 0, 0, 420],
-    "imageURL": "https://i.pinimg.com/564x/7f/a0/29/7fa02954fc46b2c1cb39111179b01bb7.jpg",
     "imagePath": "recipe-img/crock-pot-roast.jpg",
 
     "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208"
@@ -757,7 +756,7 @@
     "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
   },
   {
-    "name": "Page 2 Crock Pot Roast",
+    "name": "Delicious Tteokbokki /Spicy Rice Cake/",
     "id": 13,
     "page": 2,
     "ingredients": [
