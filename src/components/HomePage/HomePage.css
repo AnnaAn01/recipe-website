@@ -137,8 +137,6 @@
   padding: 5rem 15rem;
   height: 150vh;
   flex-direction: row;
-  /* justify-content: center;
-  align-items: center; */
 }
 
 .homepage-second__wrapper {
@@ -164,14 +162,10 @@
 
 .homepage-second__card {
   display: flex;
-  /* height: 25rem; */
   height: auto;
   padding: 1rem 3rem;
-  /* background-color: red; */
+
   flex-direction: row;
-  /* justify-content: center;
-  align-items: center; */
-  /* width: 100rem; */
 }
 
 .homepage-second__devider-line {
