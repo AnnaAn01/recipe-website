@@ -38,9 +38,7 @@
     ],
     "timers": [0, 0, 0, 420],
     "imageURL": "https://i.pinimg.com/564x/7f/a0/29/7fa02954fc46b2c1cb39111179b01bb7.jpg",
-    "imagePath": "recipe-img/crock-pot-roast.jpg",
-
-    "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208"
+    "imagePath": "recipe-img/crock-pot-roast.jpg"
   },
   {
     "name": "Roasted Asparagus",
@@ -77,8 +75,7 @@
     ],
     "timers": [0, 0, 0, 0, 0, 0, 10, 0, 0, 0],
     "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg",
-    "imagePath": "recipe-img/roasted-asparagus.jpg",
-    "originalURL": "http://www.food.com/recipe/roasted-asparagus-50847"
+    "imagePath": "recipe-img/roasted-asparagus.jpg"
   },
   {
     "name": "Curried Lentils and Rice",
