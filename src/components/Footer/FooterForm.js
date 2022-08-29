@@ -11,11 +11,11 @@ const FooterForm = () => {
   };
 
   return (
-    <div className="footer__newsletter-wrapper">
+    <div className="footer__newsletter-container">
       <div className="footer__newsletter-title">
         Signup for email recipe updates
       </div>
-      <div className="footer__newsletter-container">
+      <div className="footer__newsletter-wrapper">
         <form
           onSubmit={handleSubmit}
           className="footer__form"
@@ -25,33 +25,33 @@ const FooterForm = () => {
           <div className="newsletter__form-group">
             {/*<label htmlFor="firstName">First Name</label> */}
             <input
-              className="form__items"
+              className="form__items first-name"
               type="text"
               id="firstName"
               name="firstName"
               placeholder="First Name"
             />
-          </div>
-          <div className="newsletter__form-group">
+
             {/*<label htmlFor="email">Email</label> */}
 
             <input
-              className="form__items"
+              className="form__items email"
               type="email"
               id="email"
               name="email"
               placeholder="Email"
             />
+
+            <button
+              className="form__items form__button"
+              type="submit"
+              onClick={() => {
+                handleClick();
+              }}
+            >
+              Submit
+            </button>
           </div>
-          <button
-            className="form__items form__button"
-            type="submit"
-            onClick={() => {
-              handleClick();
-            }}
-          >
-            Submit
-          </button>
         </form>
 
         {!click ? (

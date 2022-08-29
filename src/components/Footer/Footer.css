@@ -1,31 +1,40 @@
 .footer {
   background-color: rgb(254, 196, 127);
-  height: 35vh;
-  width: auto;
+  /* height: 35vh; */
+  /* width: auto; */
 }
 
 .footer__container {
-  padding: 0rem 15rem;
-  margin: 0 3rem;
+  /* padding: 0rem 18rem;
+  padding-bottom: 2rem; */
+
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   /* background-color: blueviolet; */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  width: 75vw;
+  align-items: center;
+  justify-content: center; */
 }
 
 .footer__sns {
 }
 
 .footer__sns-wrapper {
-  /* background-color: blue; */
-  height: 20vh;
-  margin-top: 2rem;
+  background-color: rgb(91, 91, 241);
+  /* height: 20vh; */
+  /* margin-top: 2rem; */
 }
 
 .footer__sns-icons {
   text-decoration: none;
   color: #3c341f;
-  font-size: 5rem;
-  margin-right: 1rem;
+  font-size: 4rem;
+  /* margin-right: 1rem; */
 }
 
 .footer__sns-icons:hover {
@@ -33,7 +42,14 @@
 }
 
 .footer__title {
-  margin-bottom: 2rem;
+  /* margin-bottom: 1rem; */
+
+  font-size: 3rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-family: "Dancing Script", cursive;
 }
 .footer__copyright {
   font-size: 1.5rem;

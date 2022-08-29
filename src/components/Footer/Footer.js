@@ -17,7 +17,6 @@ const Footer = () => {
             >
               <FaInstagramSquare />
             </a>
-
             <a
               className="footer__sns-icons footer__sns-instagram"
               href="https://www.twitter.com/"
@@ -28,7 +27,7 @@ const Footer = () => {
             </a>
           </div>
 
-          <div className="navbar__title footer__title">Anna's Kitchen</div>
+          <div className="footer__title">Anna's Kitchen</div>
           <div className="footer__copyright">
             © 2022
             <span className="footer__copyright-title"> Anna's Kitchen</span>.
