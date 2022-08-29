@@ -1,11 +1,11 @@
 .navbar {
   /* background-color: aqua; */
   width: auto;
-  height: 15vh;
+  /* height: 15vh; */
   display: flex;
   align-items: center;
   /* justify-content: center; */
-  padding: 1rem 200px;
+  padding: 2rem 200px;
   border-bottom: 1px solid rgba(230, 230, 230, 1);
   /* background-color: yellow; */
 }

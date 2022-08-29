@@ -15,10 +15,10 @@
   display: flex;
   background-color: #fff;
 
-  height: 12vh;
+  /* height: 12vh; */
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 3rem;
   width: auto;
   /* background-color: red; */
 }
