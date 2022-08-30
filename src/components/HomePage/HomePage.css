@@ -132,8 +132,9 @@
   /* background-color: rgb(242, 106, 106); */
   /* background-color: green; */
   padding: 5rem 15rem;
-  height: 150vh;
+  /* height: 150vh; */
   flex-direction: row;
+  height: 100%;
 }
 
 .homepage-second__wrapper {
@@ -145,6 +146,13 @@
   /* background-color: green; */
   width: 90rem;
   margin-top: 3rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
 }
 
 .homepage-second__section-title {
