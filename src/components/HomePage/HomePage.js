@@ -56,79 +56,80 @@ const HomePage = () => {
             Latest Quick Recipes
           </h1>
           {/*Second section cards */}
-
-          <div className="homepage-second__card">
-            <div className="second-card__img second-card__img-1">
-              <img
-                src={RECIPES[0].imagePath}
-                alt="img"
-                className="second-card__img second-card__img-1"
-              />
-              <div className="card__img--overlay"></div>
-            </div>
-            <div className="second-card__text ">
-              <div className="second-card__title">{RECIPES[0].name}</div>
-              <div className="second-card__description">
-                {RECIPES[0].steps}...
+          <div className="homepage-second__card-container">
+            <div className="homepage-second__card">
+              <div className="second-card__img second-card__img-1">
+                <img
+                  src={RECIPES[0].imagePath}
+                  alt="img"
+                  className="second-card__img second-card__img-1"
+                />
+                <div className="card__img--overlay"></div>
               </div>
-              <Link
-                onClick={() => handleClick()}
-                to={`/recipe-pages/:${RECIPES[0].id - 1}`}
-                className="second-card__button-continue"
-              >
-                Continue Reading
-              </Link>
-            </div>
-          </div>
-          <div className="homepage-second__devider-line"></div>
-          <div className="homepage-second__card">
-            <div className="second-card__img second-card__img-1">
-              <img
-                src={RECIPES[1].imagePath}
-                alt="img"
-                className="second-card__img second-card__img-2"
-              />
-              <div className="card__img--overlay"></div>
-            </div>
-            <div className="second-card__text ">
-              <div className="second-card__title">{RECIPES[1].name}</div>
-              <div className="second-card__description">
-                {RECIPES[1].steps.slice(0, 2)}...
+              <div className="second-card__text ">
+                <div className="second-card__title">{RECIPES[0].name}</div>
+                <div className="second-card__description">
+                  {RECIPES[0].steps}...
+                </div>
+                <Link
+                  onClick={() => handleClick()}
+                  to={`/recipe-pages/:${RECIPES[0].id - 1}`}
+                  className="second-card__button-continue"
+                >
+                  Continue Reading
+                </Link>
               </div>
-              <Link
-                onClick={() => handleClick()}
-                to={`/recipe-pages/:${RECIPES[1].id - 1}`}
-                className="second-card__button-continue"
-              >
-                Continue Reading
-              </Link>
             </div>
-          </div>
-          <div className="homepage-second__devider-line"></div>
-          <div className="homepage-second__card">
-            <div className="second-card__img second-card__img-1">
-              <img
-                src={RECIPES[2].imagePath}
-                alt="img"
-                className="second-card__img second-card__img-1"
-              />
-              <div className="card__img--overlay"></div>
-            </div>
-            <div className="second-card__text ">
-              <div className="second-card__title">{RECIPES[2].name}</div>
-              <div className="second-card__description">
-                {RECIPES[2].steps}...
+            <div className="homepage-second__devider-line"></div>
+            <div className="homepage-second__card">
+              <div className="second-card__img second-card__img-1">
+                <img
+                  src={RECIPES[1].imagePath}
+                  alt="img"
+                  className="second-card__img second-card__img-2"
+                />
+                <div className="card__img--overlay"></div>
               </div>
-              <Link
-                onClick={() => handleClick()}
-                to={`/recipe-pages/:${RECIPES[2].id - 1}`}
-                className="second-card__button-continue"
-              >
-                Continue Reading
-              </Link>
+              <div className="second-card__text ">
+                <div className="second-card__title">{RECIPES[1].name}</div>
+                <div className="second-card__description">
+                  {RECIPES[1].steps.slice(0, 2)}...
+                </div>
+                <Link
+                  onClick={() => handleClick()}
+                  to={`/recipe-pages/:${RECIPES[1].id - 1}`}
+                  className="second-card__button-continue"
+                >
+                  Continue Reading
+                </Link>
+              </div>
             </div>
+            <div className="homepage-second__devider-line"></div>
+            <div className="homepage-second__card">
+              <div className="second-card__img second-card__img-1">
+                <img
+                  src={RECIPES[2].imagePath}
+                  alt="img"
+                  className="second-card__img second-card__img-1"
+                />
+                <div className="card__img--overlay"></div>
+              </div>
+              <div className="second-card__text ">
+                <div className="second-card__title">{RECIPES[2].name}</div>
+                <div className="second-card__description">
+                  {RECIPES[2].steps}...
+                </div>
+                <Link
+                  onClick={() => handleClick()}
+                  to={`/recipe-pages/:${RECIPES[2].id - 1}`}
+                  className="second-card__button-continue"
+                >
+                  Continue Reading
+                </Link>
+              </div>
+            </div>
+            <div className="homepage-second__devider-line"></div>
           </div>
-          <div className="homepage-second__devider-line"></div>
         </div>
       </section>
     </>

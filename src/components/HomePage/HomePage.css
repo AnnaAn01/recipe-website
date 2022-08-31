@@ -169,16 +169,23 @@
   font-weight: bolder;
 }
 
+.homepage-second__card-container {
+  width: 80vw;
+  /* background-color: red; */
+}
+
 .homepage-second__card {
   display: flex;
   height: auto;
   padding: 1rem 3rem;
 
   flex-direction: row;
+
+  width: 70%;
 }
 
 .homepage-second__devider-line {
-  width: auto;
+  width: 65%;
   height: auto;
   background-color: rgba(60, 52, 31, 0.3);
   margin: 3rem 3rem;
