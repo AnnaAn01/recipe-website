@@ -58,13 +58,12 @@ const HomePage = () => {
           {/*Second section cards */}
           <div className="homepage-second__card-container">
             <div className="homepage-second__card">
-              <div className="second-card__img second-card__img-1">
+              <div className="second-card__img-1">
                 <img
                   src={RECIPES[0].imagePath}
                   alt="img"
                   className="second-card__img second-card__img-1"
                 />
-                <div className="card__img--overlay"></div>
               </div>
               <div className="second-card__text ">
                 <div className="second-card__title">{RECIPES[0].name}</div>
@@ -82,13 +81,12 @@ const HomePage = () => {
             </div>
             <div className="homepage-second__devider-line"></div>
             <div className="homepage-second__card">
-              <div className="second-card__img second-card__img-1">
+              <div className="second-card__img-1">
                 <img
                   src={RECIPES[1].imagePath}
                   alt="img"
                   className="second-card__img second-card__img-2"
                 />
-                <div className="card__img--overlay"></div>
               </div>
               <div className="second-card__text ">
                 <div className="second-card__title">{RECIPES[1].name}</div>
@@ -106,13 +104,12 @@ const HomePage = () => {
             </div>
             <div className="homepage-second__devider-line"></div>
             <div className="homepage-second__card">
-              <div className="second-card__img second-card__img-1">
+              <div className=" second-card__img-1">
                 <img
                   src={RECIPES[2].imagePath}
                   alt="img"
                   className="second-card__img second-card__img-1"
                 />
-                <div className="card__img--overlay"></div>
               </div>
               <div className="second-card__text ">
                 <div className="second-card__title">{RECIPES[2].name}</div>
