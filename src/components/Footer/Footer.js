@@ -29,9 +29,7 @@ const Footer = () => {
 
           <div className="footer__title">Anna's Kitchen</div>
           <div className="footer__copyright">
-            © 2022
-            <span className="footer__copyright-title"> Anna's Kitchen</span>.
-            All Rights Reserved
+            © 2022 Anna's Kitchen. All Rights Reserved.
           </div>
         </div>
         <FooterForm />
