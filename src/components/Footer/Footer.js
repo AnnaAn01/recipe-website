@@ -18,18 +18,19 @@ const Footer = () => {
               <FaInstagramSquare />
             </a>
             <a
-              className="footer__sns-icons footer__sns-instagram"
+              className="footer__sns-icons footer__sns-twitter"
               href="https://www.twitter.com/"
               target="_blank"
               rel="noreferrer"
             >
               <FaTwitterSquare />
             </a>
-          </div>
-
-          <div className="footer__title">Anna's Kitchen</div>
-          <div className="footer__copyright">
-            © 2022 Anna's Kitchen. All Rights Reserved.
+            <div className="footer__title-copyright-wrapper">
+              <div className="footer__title">Anna's Kitchen</div>
+              <div className="footer__copyright">
+                © 2022 Anna's Kitchen. All Rights Reserved.
+              </div>
+            </div>
           </div>
         </div>
         <FooterForm />
