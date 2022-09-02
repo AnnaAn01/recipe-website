@@ -59,11 +59,17 @@ const HomePage = () => {
           <div className="homepage-second__card-container">
             <div className="homepage-second__card">
               <div className="second-card__img-1">
-                <img
-                  src={RECIPES[0].imagePath}
-                  alt="img"
-                  className="second-card__img second-card__img-1"
-                />
+                <Link
+                  onClick={() => handleClick()}
+                  to={`/recipe-pages/:${RECIPES[0].id - 1}`}
+                  className=""
+                >
+                  <img
+                    src={RECIPES[0].imagePath}
+                    alt="img"
+                    className="second-card__img second-card__img-1"
+                  />
+                </Link>
               </div>
               <div className="second-card__text ">
                 <div className="second-card__title">{RECIPES[0].name}</div>
@@ -82,11 +88,17 @@ const HomePage = () => {
             <div className="homepage-second__devider-line"></div>
             <div className="homepage-second__card">
               <div className="second-card__img-1">
-                <img
-                  src={RECIPES[1].imagePath}
-                  alt="img"
-                  className="second-card__img second-card__img-2"
-                />
+                <Link
+                  onClick={() => handleClick()}
+                  to={`/recipe-pages/:${RECIPES[1].id - 1}`}
+                  className=""
+                >
+                  <img
+                    src={RECIPES[1].imagePath}
+                    alt="img"
+                    className="second-card__img second-card__img-1"
+                  />
+                </Link>
               </div>
               <div className="second-card__text ">
                 <div className="second-card__title">{RECIPES[1].name}</div>
@@ -105,11 +117,17 @@ const HomePage = () => {
             <div className="homepage-second__devider-line"></div>
             <div className="homepage-second__card">
               <div className=" second-card__img-1">
-                <img
-                  src={RECIPES[2].imagePath}
-                  alt="img"
-                  className="second-card__img second-card__img-1"
-                />
+                <Link
+                  onClick={() => handleClick()}
+                  to={`/recipe-pages/:${RECIPES[2].id - 1}`}
+                  className=""
+                >
+                  <img
+                    src={RECIPES[2].imagePath}
+                    alt="img"
+                    className="second-card__img second-card__img-1"
+                  />
+                </Link>
               </div>
               <div className="second-card__text ">
                 <div className="second-card__title">{RECIPES[2].name}</div>

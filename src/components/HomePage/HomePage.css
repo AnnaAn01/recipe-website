@@ -251,7 +251,11 @@
   border-radius: 3px;
   margin-right: 2rem;
 
-  background-color: violet;
+  /* background-color: violet;  */
+}
+
+.second-card__img-1 {
+  /* background-color: violet; */
 }
 
 .second-card__img:hover {
