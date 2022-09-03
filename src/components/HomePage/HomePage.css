@@ -234,7 +234,6 @@
 .second-card__img {
   width: 15vw;
   object-fit: cover;
-  /* object-fit: contain; */
   height: 15vw;
   justify-content: center;
   align-items: center;
