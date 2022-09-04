@@ -39,10 +39,6 @@
   margin-right: 7rem;
 }
 
-/* .navbar__item-link:focus {
-  color: orange;
-} */
-
 .navbar__item-link.active {
   color: orange;
 }
