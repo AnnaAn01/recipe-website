@@ -117,7 +117,6 @@
   font-size: 2.5rem;
   animation: newsletter__submit-status 4s ease forwards;
   height: 4rem;
-  /* background-color: green; */
 }
 
 /* Hiding the success/fail status bar */
@@ -141,7 +140,7 @@
 
 .hidden {
   opacity: 0;
-  /* padding: 1rem; */
+
   font-size: 2.5rem;
   color: purple;
 }
@@ -151,7 +150,6 @@
   position: relative;
   width: 4rem;
   height: 4rem;
-  /* background-color: red; */
 }
 .lds-ring div {
   box-sizing: border-box;
