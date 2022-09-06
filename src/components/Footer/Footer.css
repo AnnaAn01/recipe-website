@@ -68,12 +68,8 @@
     flex-direction: column;
   }
   .footer__sns-wrapper {
-    /* background-color: rgb(91, 91, 241); */
-    /* height: 20vh; */
-    /* margin-top: 2rem; */
     display: flex;
     flex-direction: row;
-    /* margin-top: 0rem; */
   }
 
   .footer__sns {
