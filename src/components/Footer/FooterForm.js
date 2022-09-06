@@ -30,6 +30,7 @@ const FooterForm = () => {
               id="firstName"
               name="firstName"
               placeholder="First Name"
+              required
             />
 
             {/*<label htmlFor="email">Email</label> */}
@@ -40,6 +41,7 @@ const FooterForm = () => {
               id="email"
               name="email"
               placeholder="Email"
+              required
             />
 
             <button
