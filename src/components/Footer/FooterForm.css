@@ -203,9 +203,26 @@
 }
 
 @media screen and (max-width: 768px) {
+  .footer__newsletter-container {
+    margin: 0rem;
+    padding: 0rem;
+  }
+
+  .first-name {
+    width: 90%;
+  }
+  .email {
+    width: 100%;
+  }
+  .form__button {
+    font-size: 1.7rem;
+  }
 }
 
 @media screen and (max-width: 568px) {
+  .footer__newsletter-title {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 451px) {
