@@ -7,6 +7,7 @@ import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Recipes from "./components/Recipes/Recipes";
 import IndividualPost from "./components/Recipes/IndividualPost";
 import RECIPES from "./components/SearchBar/RECIPES.json";
+import HomepageShowGroup from "./components/HomePage/HomepageShowGroup/HomepageShowGroup";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/recipe" element={<Recipes />} />
         <Route path="/recipe-pages/:postid" element={<IndividualPost />} />
+
+        <Route path="/homapage-show-group" element={<HomepageShowGroup />} />
       </Routes>
       <Footer />
     </Router>

@@ -511,6 +511,7 @@
     "name": "Tomato and Spinach Pasta",
     "id": 10,
     "page": 1,
+    "group": "pasta",
     "ingredients": [
       {
         "quantity": "3",
@@ -1305,6 +1306,7 @@
     "name": "Tomato and Spinach Pasta",
     "id": 22,
     "page": 2,
+    "group": "pasta",
     "ingredients": [
       {
         "quantity": "3",
@@ -1550,7 +1552,6 @@
   {
     "name": "Page 3 Crock Pot Roast",
     "id": 25,
-    "page": 3,
     "page": 3,
     "ingredients": [
       {
@@ -2063,6 +2064,7 @@
     "name": "Tomato and Spinach Pasta",
     "id": 34,
     "page": 3,
+    "group": "pasta",
     "ingredients": [
       {
         "quantity": "3",

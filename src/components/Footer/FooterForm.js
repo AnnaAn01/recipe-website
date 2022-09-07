@@ -66,7 +66,7 @@ const FooterForm = () => {
             Your email has been submitted!
           </div>
         ) : click && state.submitting ? (
-          <div class="lds-ring">
+          <div className="lds-ring">
             <div></div>
             <div></div>
             <div></div>

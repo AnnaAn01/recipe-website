@@ -1,7 +1,7 @@
-import React, { useParams } from "react";
-import RECIPES from "../SearchBar/RECIPES.json";
+// import React, { useParams } from "react";
+// import RECIPES from "../SearchBar/RECIPES.json";
 import { Link } from "react-router-dom";
-import IndividualPost from "./IndividualPost";
+// import IndividualPost from "./IndividualPost";
 
 const Posts = ({ posts, loading, setPostid, currentPage, postsPerPage }) => {
   if (loading) {

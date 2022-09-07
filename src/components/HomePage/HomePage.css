@@ -241,10 +241,6 @@
   margin-right: 2rem;
 }
 
-.second-card__img-1 {
-  /* background-color: violet; */
-}
-
 .second-card__img:hover {
   transition: opacity 0.3s ease-in-out;
   opacity: 0.6;

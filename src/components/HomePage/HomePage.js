@@ -20,12 +20,19 @@ const HomePage = () => {
       </div>
       <section className="homepage-first__container">
         <div className="homepage-first__wrapper">
-          <div className="homepage-first__card">
-            <div className="card__img card__img-1">
-              <div className="card__img--overlay"></div>
-              <p className="card-label">PASTA</p>
+          <Link
+            // to show the item numbers on pages 2 and 3
+            // to={`/recipe-pages/:${0}`}
+            to={`/homapage-show-group`}
+            className="recipes__list-link"
+          >
+            <div className="homepage-first__card">
+              <div className="card__img card__img-1">
+                <div className="card__img--overlay"></div>
+                <p className="card-label">PASTA</p>
+              </div>
             </div>
-          </div>
+          </Link>
           <div className="homepage-first__card">
             <div className="card__img card__img-2">
               <div className="card__img--overlay"></div>
