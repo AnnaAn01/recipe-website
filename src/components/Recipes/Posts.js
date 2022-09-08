@@ -12,19 +12,8 @@ const Posts = ({ posts, loading, setPostid, currentPage, postsPerPage }) => {
   // let { userId } = useParams();
 
   const handleClick = (index, el) => {
-    // console.log(el.name);
-    // console.log(el.id);
-    // console.log(typeof el.id);
-    // setPostid(el.id);
-    // clickedId.push(el.id);
-    // console.log(currentPage);
-    // console.log(el.page);
     window.scrollTo(0, 0);
   };
-
-  // console.log("posts postid");
-  // let numberOfPostsPerPage = postsPerPage;
-  // console.log(numberOfPostsPerPage);
 
   const postsList = posts.map((el, index) => {
     return (
