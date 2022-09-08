@@ -41,7 +41,7 @@ const HomepageShowGroup = () => {
     }
   });
 
-  return <div className="homapage-show-group">{foodGroups}</div>;
+  return <div className="homapage-show-group">Pasta Recipes{foodGroups}</div>;
 };
 
 export default HomepageShowGroup;

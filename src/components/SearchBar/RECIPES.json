@@ -429,6 +429,7 @@
     "name": "Curried chicken salad",
     "id": 9,
     "page": 1,
+    "group": "snack",
     "ingredients": [
       {
         "quantity": "3",
@@ -2229,6 +2230,7 @@
     "name": "Page 3 Avocado Toast",
     "id": 36,
     "page": 3,
+    "group": "snack",
     "ingredients": [
       {
         "quantity": "3",
