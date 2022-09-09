@@ -1,5 +1,5 @@
-.homapage-show-group {
+.show-group__container {
   font-size: 5rem;
   color: red;
-  display: flex;
+  /* display: flex; */
 }

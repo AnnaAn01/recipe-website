@@ -23,34 +23,49 @@ const HomePage = () => {
           <Link
             // to show the item numbers on pages 2 and 3
             // to={`/recipe-pages/:${0}`}
-            to={`/homapage-show-group`}
+            to={`/homapage-show-group/:${id}`}
             className="recipes__list-link"
           >
-            <div className="homepage-first__card">
+            <div className="homepage-first__card" id="pasta">
               <div className="card__img card__img-1">
                 <div className="card__img--overlay"></div>
                 <p className="card-label">PASTA</p>
               </div>
             </div>
           </Link>
-          <div className="homepage-first__card">
-            <div className="card__img card__img-2">
-              <div className="card__img--overlay"></div>
-              <p className="card-label">SNACKS</p>
+          <Link
+            to={`/homapage-show-group/:postid`}
+            className="recipes__list-link"
+          >
+            <div className="homepage-first__card" id="snacks">
+              <div className="card__img card__img-2">
+                <div className="card__img--overlay"></div>
+                <p className="card-label">SNACKS</p>
+              </div>
             </div>
-          </div>
-          <div className="homepage-first__card">
-            <div className="card__img card__img-3">
-              <div className="card__img--overlay"></div>
-              <p className="card-label">OVEN</p>
+          </Link>
+          <Link
+            to={`/homapage-show-group/:postid`}
+            className="recipes__list-link"
+          >
+            <div className="homepage-first__card" id="oven">
+              <div className="card__img card__img-3">
+                <div className="card__img--overlay"></div>
+                <p className="card-label">OVEN</p>
+              </div>
             </div>
-          </div>
-          <div className="homepage-first__card">
-            <div className="card__img card__img-4">
-              <div className="card__img--overlay"></div>
-              <p className="card-label">SPICY</p>
+          </Link>
+          <Link
+            to={`/homapage-show-group/:postid`}
+            className="recipes__list-link"
+          >
+            <div className="homepage-first__card" id="spicy">
+              <div className="card__img card__img-4">
+                <div className="card__img--overlay"></div>
+                <p className="card-label">SPICY</p>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
         <div className="home__search-container">
           <SearchBar />

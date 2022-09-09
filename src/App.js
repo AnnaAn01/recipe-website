@@ -19,7 +19,10 @@ function App() {
         <Route path="/recipe" element={<Recipes />} />
         <Route path="/recipe-pages/:postid" element={<IndividualPost />} />
 
-        <Route path="/homapage-show-group" element={<HomepageShowGroup />} />
+        <Route
+          path="/homapage-show-group/:postid"
+          element={<HomepageShowGroup />}
+        />
       </Routes>
       <Footer />
     </Router>
