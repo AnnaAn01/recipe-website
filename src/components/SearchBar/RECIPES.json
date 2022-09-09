@@ -3,6 +3,7 @@
     "name": "Crock Pot Roast",
     "id": 1,
     "page": 1,
+    "group": "",
     "ingredients": [
       {
         "quantity": "1",
@@ -275,6 +276,7 @@
     "name": "Old-Fashioned Oatmeal Cookies",
     "id": 7,
     "page": 1,
+    "group": "",
     "ingredients": [
       {
         "quantity": "1 cup",
@@ -358,6 +360,7 @@
     "name": "Blueberry Oatmeal Squares",
     "id": 8,
     "page": 1,
+    "group": "",
     "ingredients": [
       {
         "quantity": "2-1/2 cups",
@@ -429,7 +432,7 @@
     "name": "Curried chicken salad",
     "id": 9,
     "page": 1,
-    "group": "snack",
+    "group": "snacks",
     "ingredients": [
       {
         "quantity": "3",
@@ -595,6 +598,7 @@
     "name": "Korean Spicy Braised Chicken Stew",
     "id": 11,
     "page": 1,
+    "group": "",
     "ingredients": [
       {
         "quantity": "3",
@@ -677,6 +681,7 @@
     "name": "Avocado Toast",
     "id": 12,
     "page": 1,
+    "group": "",
     "ingredients": [
       {
         "quantity": "3",
@@ -759,6 +764,7 @@
     "name": "Delicious Tteokbokki aka. Spicy Rice Cake",
     "id": 13,
     "page": 2,
+    "group": "",
     "ingredients": [
       {
         "quantity": "300 g / 10.6 ounces",
@@ -839,6 +845,7 @@
     "name": "Roasted Asparagus",
     "id": 14,
     "page": 2,
+    "group": "",
     "ingredients": [
       {
         "quantity": "1 lb",
@@ -877,6 +884,7 @@
     "name": "Curried Lentils and Rice",
     "id": 15,
     "page": 2,
+    "group": "",
     "ingredients": [
       {
         "quantity": "1 quart",
@@ -919,6 +927,7 @@
     "name": "Big Night Pizza",
     "id": 16,
     "page": 2,
+    "group": "",
     "ingredients": [
       {
         "quantity": "5 teaspoons",
@@ -978,6 +987,7 @@
     "name": "Cranberry and Apple Stuffed Acorn Squash",
     "id": 17,
     "page": 2,
+    "group": "",
     "ingredients": [
       {
         "quantity": "2",
@@ -1029,6 +1039,7 @@
     "name": "Yorkshire Puds",
     "id": 18,
     "page": 2,
+    "group": "",
     "ingredients": [
       {
         "quantity": "200g",
@@ -1071,6 +1082,7 @@
     "name": "Old-Fashioned Oatmeal Cookies",
     "id": 19,
     "page": 2,
+    "group": "",
     "ingredients": [
       {
         "quantity": "1 cup",
@@ -1154,6 +1166,7 @@
     "name": "Blueberry Oatmeal Squares",
     "id": 20,
     "page": 2,
+    "group": "",
     "ingredients": [
       {
         "quantity": "2-1/2 cups",
@@ -1225,6 +1238,7 @@
     "name": "Curried chicken salad",
     "id": 21,
     "page": 2,
+    "group": "",
     "ingredients": [
       {
         "quantity": "3",
@@ -1390,6 +1404,7 @@
     "name": "Korean Spicy Braised Chicken Stew",
     "id": 23,
     "page": 2,
+    "group": "",
     "ingredients": [
       {
         "quantity": "3",
@@ -1472,6 +1487,7 @@
     "name": "Avocado Toast",
     "id": 24,
     "page": 2,
+    "group": "",
     "ingredients": [
       {
         "quantity": "3",
@@ -1554,6 +1570,7 @@
     "name": "Page 3 Crock Pot Roast",
     "id": 25,
     "page": 3,
+    "group": "",
     "ingredients": [
       {
         "quantity": "1",
@@ -1597,6 +1614,7 @@
     "name": "Roasted Asparagus",
     "id": 26,
     "page": 3,
+    "group": "",
     "ingredients": [
       {
         "quantity": "1 lb",
@@ -1635,6 +1653,7 @@
     "name": "Curried Lentils and Rice",
     "id": 27,
     "page": 3,
+    "group": "",
     "ingredients": [
       {
         "quantity": "1 quart",
@@ -1677,6 +1696,7 @@
     "name": "Big Night Pizza",
     "id": 28,
     "page": 3,
+    "group": "",
     "ingredients": [
       {
         "quantity": "5 teaspoons",
@@ -1736,6 +1756,7 @@
     "name": "Cranberry and Apple Stuffed Acorn Squash",
     "id": 29,
     "page": 3,
+    "group": "",
     "ingredients": [
       {
         "quantity": "2",
@@ -1787,6 +1808,7 @@
     "name": "Yorkshire Puds",
     "id": 30,
     "page": 3,
+    "group": "",
     "ingredients": [
       {
         "quantity": "200g",
@@ -1829,6 +1851,7 @@
     "name": "Old-Fashioned Oatmeal Cookies",
     "id": 31,
     "page": 3,
+    "group": "",
     "ingredients": [
       {
         "quantity": "1 cup",
@@ -1912,6 +1935,7 @@
     "name": "Blueberry Oatmeal Squares",
     "id": 32,
     "page": 3,
+    "group": "",
     "ingredients": [
       {
         "quantity": "2-1/2 cups",
@@ -1983,6 +2007,7 @@
     "name": "Curried chicken salad",
     "id": 33,
     "page": 3,
+    "group": "",
     "ingredients": [
       {
         "quantity": "3",
@@ -2148,6 +2173,7 @@
     "name": "Korean Spicy Braised Chicken Stew",
     "id": 35,
     "page": 3,
+    "group": "",
     "ingredients": [
       {
         "quantity": "3",
@@ -2230,7 +2256,7 @@
     "name": "Page 3 Avocado Toast",
     "id": 36,
     "page": 3,
-    "group": "snack",
+    "group": "snacks",
     "ingredients": [
       {
         "quantity": "3",
