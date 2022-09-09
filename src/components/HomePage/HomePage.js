@@ -1,5 +1,6 @@
 import React from "react";
 import "./HomePage.css";
+import HomePageSectionOne from "./HomePageSectionOne.json";
 
 import SearchBar from "../SearchBar/SearchBar";
 import RECIPES from "../SearchBar/RECIPES.json";
@@ -9,6 +10,28 @@ const HomePage = () => {
   const handleClick = () => {
     window.scrollTo(0, 0);
   };
+
+  const homeSetionOne = HomePageSectionOne.map((el, index) => {
+    return (
+      <Link
+        to={`/homapage-show-group/:${el.id}`}
+        className="recipes__list-link"
+      >
+        <div
+          className="homepage-first__card"
+          id={el.id}
+          key={el.id}
+          label={el.label}
+          // src={el.imagePath}
+        >
+          <img src={el.imagePath} alt={el.id} className="card__img" />
+
+          <div className="card__img--overlay"></div>
+          <p className="card-label">{el.label}</p>
+        </div>
+      </Link>
+    );
+  });
 
   return (
     <>
@@ -20,10 +43,11 @@ const HomePage = () => {
       </div>
       <section className="homepage-first__container">
         <div className="homepage-first__wrapper">
-          <Link
+          {homeSetionOne}
+          {/*<Link
             // to show the item numbers on pages 2 and 3
             // to={`/recipe-pages/:${0}`}
-            to={`/homapage-show-group/:${id}`}
+            to={`/homapage-show-group/:postid`}
             className="recipes__list-link"
           >
             <div className="homepage-first__card" id="pasta">
@@ -32,7 +56,8 @@ const HomePage = () => {
                 <p className="card-label">PASTA</p>
               </div>
             </div>
-          </Link>
+  </Link>
+          
           <Link
             to={`/homapage-show-group/:postid`}
             className="recipes__list-link"
@@ -66,6 +91,7 @@ const HomePage = () => {
               </div>
             </div>
           </Link>
+          */}
         </div>
         <div className="home__search-container">
           <SearchBar />

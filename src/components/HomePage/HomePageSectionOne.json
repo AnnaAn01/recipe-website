@@ -1,6 +1,22 @@
 [
   {
-    "id": "PASTA",
-    "imagePath": "tomato-spinach-pasta.jpg"
+    "id": "pasta",
+    "imagePath": "recipe-img/homepage-main-5.jpg",
+    "label": "PASTA"
+  },
+  {
+    "id": "snacks",
+    "imagePath": "recipe-img/homepage-main-6.jpg",
+    "label": "SNACKS"
+  },
+  {
+    "id": "oven",
+    "imagePath": "recipe-img/homepage-main-7.jpg",
+    "label": "OVEN"
+  },
+  {
+    "id": "pasta",
+    "imagePath": "recipe-img/homepage-main-8.jpg",
+    "label": "PASTA"
   }
 ]
