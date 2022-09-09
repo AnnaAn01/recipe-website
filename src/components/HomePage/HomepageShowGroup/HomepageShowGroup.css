@@ -1,4 +1,5 @@
 .homapage-show-group {
   font-size: 5rem;
   color: red;
+  display: flex;
 }
