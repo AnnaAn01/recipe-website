@@ -15,8 +15,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" exact element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
         <Route path="/recipe" element={<Recipes />} />
+        <Route path="/about" element={<AboutPage />} />
         <Route path="/recipe-pages/:postid" element={<IndividualPost />} />
 
         <Route

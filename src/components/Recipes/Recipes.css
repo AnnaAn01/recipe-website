@@ -1,6 +1,6 @@
 .recipes__container {
   display: flex;
-
+  position: relative;
   background-color: rgb(249, 244, 244);
   /* background-color: yellow; */
   padding: 0rem 15rem 0rem 15rem;
@@ -13,6 +13,7 @@
 
 .recipes__wrapper {
   display: flex;
+  /* position: relative; */
   flex-direction: column;
   height: 100%;
   align-items: center;
@@ -62,7 +63,12 @@
   color: rgba(69, 176, 12, 1);
 }
 
+/* .recipes__all-list-container {
+  position: relative;
+} */
+
 .recipes__all-list-wrapper {
+  /* position: relative; */
   height: 25vh;
   /* background-color: red; */
   height: 100%;

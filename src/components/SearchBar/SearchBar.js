@@ -117,6 +117,7 @@ import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { ImSpoonKnife } from "react-icons/im";
 import Img1 from "../../images-src/recipe-img/big-night-pizza-1.jpg";
+import SearchViewAllRecipes from "./SearchViewAllRecipes";
 
 const SearchBar = (posts) => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -131,12 +132,13 @@ const SearchBar = (posts) => {
         onChange={(event) => {
           setSearchTerm(event.target.value);
         }}
+        autofocus="autofocus"
       />
 
-      <span className="search__or-span">OR</span>
+      {/*<span className="search__or-span">OR</span>
       <Link to="/recipe" className="search__view-all-link">
         <span className="search__view-all-span">View all Recipes</span>
-      </Link>
+      </Link>*/}
       <div className="search__value">
         {RECIPES.filter((val) => {
           if (searchTerm === "") {

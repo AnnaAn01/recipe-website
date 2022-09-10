@@ -39,12 +39,13 @@
     ],
     "timers": [0, 0, 0, 420],
     "imageURL": "https://i.pinimg.com/564x/7f/a0/29/7fa02954fc46b2c1cb39111179b01bb7.jpg",
-    "imagePath": "recipe-img/crock-pot-roast.jpg"
+    "imagePath": "recipe-img/crockpot-pot-roast-image.jpg"
   },
   {
     "name": "Roasted Asparagus",
     "id": 2,
     "page": 1,
+    "group": "oven",
     "ingredients": [
       {
         "quantity": "1 lb",
@@ -118,7 +119,7 @@
     ],
     "timers": [0, 0, 20, 20, 0],
     "imageURL": "http://dagzhsfg97k4.cloudfront.net/wp-content/uploads/2012/05/lentils3.jpg",
-    "imagePath": "recipe-img/curried-lentils-and-rice.jpg"
+    "imagePath": "recipe-img/Vegan-Red-Lentil-Curry.jpg"
   },
   {
     "name": "Big Night Pizza",
@@ -234,6 +235,7 @@
     "name": "Yorkshire Puds",
     "id": 6,
     "page": 1,
+    "group": "oven",
     "ingredients": [
       {
         "quantity": "200g",
@@ -276,7 +278,7 @@
     "name": "Old-Fashioned Oatmeal Cookies",
     "id": 7,
     "page": 1,
-    "group": "",
+    "group": "oven",
     "ingredients": [
       {
         "quantity": "1 cup",
@@ -360,7 +362,7 @@
     "name": "Blueberry Oatmeal Squares",
     "id": 8,
     "page": 1,
-    "group": "",
+    "group": "oven",
     "ingredients": [
       {
         "quantity": "2-1/2 cups",
@@ -598,7 +600,7 @@
     "name": "Korean Spicy Braised Chicken Stew",
     "id": 11,
     "page": 1,
-    "group": "",
+    "group": "spicy",
     "ingredients": [
       {
         "quantity": "3",
@@ -764,7 +766,7 @@
     "name": "Delicious Tteokbokki aka. Spicy Rice Cake",
     "id": 13,
     "page": 2,
-    "group": "",
+    "group": "spicy",
     "ingredients": [
       {
         "quantity": "300 g / 10.6 ounces",
@@ -789,27 +791,27 @@
       {
         "quantity": "28 g / 2 tbsp",
         "name": "Korean chili paste (gochujang)",
-        "type": "Sauce"
+        "type": "sauce"
       },
       {
         "quantity": "7g / 0.5 tbsp",
         "name": "sugar",
-        "type": "Sauce"
+        "type": "sauce"
       },
       {
         "quantity": "10 g / 0.7 tbsp",
         "name": "soy sauce",
-        "type": "Sauce"
+        "type": "sauce"
       },
       {
         "quantity": "10 g / 0.7 tbsp",
         "name": "minced garlic",
-        "type": "Sauce"
+        "type": "sauce"
       },
       {
         "quantity": "10 g / 0.7 tbsp",
         "name": "Korean chili flakes (gochukaru)",
-        "type": "Sauce"
+        "type": "sauce"
       },
       {
         "quantity": "10 g / 0.7 tbsp",
@@ -819,12 +821,12 @@
       {
         "quantity": "10 g / 0.7 tbsp",
         "name": "sesame oil",
-        "type": "Garnish"
+        "type": "garnish"
       },
       {
         "quantity": "60 g / 2.1 ounces",
         "name": "chopped green onion",
-        "type": "Garnish"
+        "type": "garnish"
       }
     ],
     "steps": [
@@ -837,7 +839,7 @@
     ],
     "timers": [0, 0, 0, 420],
     "imageURL": "https://i.pinimg.com/564x/7f/a0/29/7fa02954fc46b2c1cb39111179b01bb7.jpg",
-    "imagePath": "recipe-img/page-2.jpg",
+    "imagePath": "recipe-img/tteokbokki_1-copy.jpg",
 
     "originalURL": "http://www.food.com/recipe/to-die-for-crock-pot-roast-27208"
   },
@@ -1318,7 +1320,7 @@
     "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
   },
   {
-    "name": "Tomato and Spinach Pasta",
+    "name": "Tomato and Spinach Pasta 2",
     "id": 22,
     "page": 2,
     "group": "pasta",
@@ -1401,86 +1403,89 @@
     "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
   },
   {
-    "name": "Korean Spicy Braised Chicken Stew",
+    "name": "Korean Spicy kimchi jjigae (kimchi stew)",
     "id": 23,
     "page": 2,
-    "group": "",
+    "group": "spicy",
     "ingredients": [
       {
-        "quantity": "3",
-        "name": "skinless, boneless chicken breasts, halved lengthwise",
-        "type": "Meat"
+        "quantity": "450 g / 1 pound",
+        "name": "kimchi, preferably well-fermented",
+        "type": "main"
       },
       {
-        "quantity": "1/2 cup",
-        "name": "mayonnaise",
-        "type": "Baking"
+        "quantity": "225 g / 8 ounces",
+        "name": "beef or pork",
+        "type": "main"
       },
       {
-        "quantity": "1 tbsp",
-        "name": "lemon zest",
-        "type": "Produce"
+        "quantity": "225 g / 8 ounces",
+        "name": "firm tofu (optional)",
+        "type": "main"
+      },
+      {
+        "quantity": "3 cloves",
+        "name": "garic",
+        "type": "main"
       },
       {
         "quantity": "1 tbsp ",
-        "name": "lemon juice",
-        "type": "Produce"
+        "name": "Korean chili flakes (gochukaru)",
+        "type": "main"
       },
       {
-        "quantity": "1 1/2 tsp",
-        "name": "curry powder",
-        "type": "Baking"
-      },
-      {
-        "quantity": "1/4 tsp",
-        "name": "salt",
-        "type": "Baking"
-      },
-      {
-        "quantity": "2",
-        "name": "ripe mangoes, diced",
-        "type": "Produce"
-      },
-      {
-        "quantity": "1/4 cup",
-        "name": "dried cranberries",
-        "type": "Produce"
-      },
-      {
-        "quantity": "2",
-        "name": "green onions, thinly sliced",
-        "type": "Produce"
+        "quantity": "700ml /3 cups",
+        "name": "dried anchovy and dried kelp soup",
+        "type": "main"
       },
       {
         "quantity": "1",
-        "name": "celery stalk, finely chopped",
-        "type": "Produce"
+        "name": "onion",
+        "type": "main"
       },
       {
-        "quantity": "6 leaves",
-        "name": "Boston lettuce",
-        "type": "Produce"
+        "quantity": "1",
+        "name": "scallion",
+        "type": "garnish"
       },
       {
-        "quantity": "6",
-        "name": "English muffins, toasted",
-        "type": "Misc"
+        "quantity": "1 tbsp",
+        "name": "gochujang (Korean spicy chili paste)",
+        "type": "main"
+      },
+      {
+        "quantity": "1 tbsp",
+        "name": "salt",
+        "type": "main"
+      },
+      {
+        "quantity": "1 tbsp",
+        "name": "sugar",
+        "type": "main"
+      },
+      {
+        "quantity": "1 tbsp",
+        "name": "any cooking oil",
+        "type": "main"
+      },
+      {
+        "quantity": "1 tbsp",
+        "name": "sesame oil",
+        "type": "garnish"
       }
     ],
     "steps": [
-      "ARRANGE chicken in a single layer in a large pot.",
-      "Add water to just cover.",
-      "Bring to a boil over medium-high.",
-      "Flip chicken, reduce heat to medium and simmer until cooked, about 6 more min.",
-      "Cool.",
-      "STIR mayo with lemon zest, juice, curry and salt in large bowl.",
-      "Using 2 forks, shred chicken, then stir into mayo mixture with mango, cranberries, green onions and celery.",
-      "Divide among muffins with lettuce leaves",
-      "Sandwich with tops"
+      "In a large pot, heat the cooking oil (not sesame) over medium high heat.",
+      " Add the onion, garlic, and meat, and cook for about 5 minutes, until the meat is lightly browned and the onions start to soften.",
+      "Add the kimchi and fry for 5 minutes.",
+      "Then add the salt, sugar, Korean chili flakes, gochujang (Korean red pepper paste), and broth. Stir until combined.",
+      "Bring to a simmer, cover the lid, and cook for 10 more minutes.",
+      "Add tofu on top and cook for another 5 minutes.",
+      "Garnish with chopped scallion and sesame oil. Serve with cooked white rice."
     ],
     "timers": [0, 0, 0, 6, 0, 0, 0, 0, 0],
     "imageURL": "http://www.chatelaine.com/wp-content/uploads/2013/05/Curried-chicken-salad.jpg",
-    "imagePath": "recipe-img/page-2.jpg",
+    "imagePath": "recipe-img/kimchi-jjigae-spicy.jpg",
     "originalURL": "http://www.chatelaine.com/recipe/stovetop-cooking-method/curried-chicken-salad/"
   },
   {
@@ -1756,7 +1761,7 @@
     "name": "Cranberry and Apple Stuffed Acorn Squash",
     "id": 29,
     "page": 3,
-    "group": "",
+    "group": "pasta",
     "ingredients": [
       {
         "quantity": "2",
@@ -2173,7 +2178,7 @@
     "name": "Korean Spicy Braised Chicken Stew",
     "id": 35,
     "page": 3,
-    "group": "",
+    "group": "spicy",
     "ingredients": [
       {
         "quantity": "3",

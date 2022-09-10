@@ -13,18 +13,18 @@
 }
 
 .about__wrapper {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  height: 90vh;
+  height: 70vh;
   grid-gap: 10rem;
 }
 
 .about__photo-wrapper {
-  height: 80vh;
+  height: 70vh;
   width: auto;
 }
 

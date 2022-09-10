@@ -1,7 +1,7 @@
 .search-container {
   margin-top: 0rem;
   font-size: 3rem;
-  padding: 0rem 5rem 0 5rem;
+  padding: 0rem 0rem 0 0rem;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -40,6 +40,7 @@
 
 .search__or-span {
   padding: 2rem;
+  font-size: 2rem;
 }
 
 .search__view-all-link {

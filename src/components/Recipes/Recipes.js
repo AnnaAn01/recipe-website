@@ -81,6 +81,7 @@ import RECIPES from "../SearchBar/RECIPES.json";
 import { MdRestaurantMenu } from "react-icons/md";
 import Posts from "./Posts";
 import Pagination from "./Pagination";
+import ScrollUpBtn from "../ScrollUpButton/ScrollUpBtn";
 
 const Recipes = () => {
   const [posts, setPosts] = useState([]);
@@ -130,6 +131,7 @@ const Recipes = () => {
             </div>
           </div>
         </div>
+        <ScrollUpBtn />
       </div>
     </>
   );

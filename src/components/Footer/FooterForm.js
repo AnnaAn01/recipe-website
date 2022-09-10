@@ -40,7 +40,7 @@ const FooterForm = () => {
               type="email"
               id="email"
               name="email"
-              placeholder="Email"
+              placeholder="example@email.com"
               required
             />
 

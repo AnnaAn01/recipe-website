@@ -2,8 +2,20 @@ import React from "react";
 import "./Footer.css";
 import FooterForm from "./FooterForm";
 import { FaInstagramSquare, FaTwitterSquare } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
+  const handleClick = () => {
+    const c = document.documentElement.scrollTop || document.body.scrollTop;
+    if (c > 0) {
+      window.requestAnimationFrame(handleClick);
+      window.scrollTo(0, c - c / 26);
+    }
+  };
+
+  // const handleClick = () => {
+  //   window.scrollTo(0, 0);
+  // };
   return (
     <footer className="footer">
       <div className="footer__container">
@@ -28,7 +40,10 @@ const Footer = () => {
               </a>
             </div>
             <div className="footer__title-copyright-wrapper">
-              <div className="footer__title">Anna's Kitchen</div>
+              <div className="footer__title" onClick={handleClick}>
+                Anna's Kitchen
+              </div>
+
               <div className="footer__copyright">
                 © 2022 Anna's Kitchen.
                 <span className="footer__copyright-span">

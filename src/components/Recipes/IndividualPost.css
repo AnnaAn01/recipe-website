@@ -89,3 +89,23 @@
 .individual-post__ingredients-name {
   font-size: 2rem;
 }
+
+.share-on-social-media-btn {
+  margin-left: 2rem;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.share-on-social-media-btn-span {
+  padding: 1.2rem 2rem;
+  background-color: orange;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.share-on-social-media-btn-span:hover {
+  transition: 0.3s ease-out;
+  background-color: rgb(252, 189, 72);
+  box-shadow: 0 0 5px rgba(230, 153, 10, 0.5);
+}

@@ -5,6 +5,8 @@ import HomePageSectionOne from "./HomePageSectionOne.json";
 import SearchBar from "../SearchBar/SearchBar";
 import RECIPES from "../SearchBar/RECIPES.json";
 import { Link } from "react-router-dom";
+import SearchViewAllRecipes from "../SearchBar/SearchViewAllRecipes";
+import ScrollUpBtn from "../ScrollUpButton/ScrollUpBtn";
 
 const HomePage = () => {
   const handleClick = () => {
@@ -21,13 +23,15 @@ const HomePage = () => {
           className="homepage-first__card"
           id={el.id}
           key={el.id}
-          label={el.label}
+          label={el.label.toUpperCase()}
           // src={el.imagePath}
         >
-          <img src={el.imagePath} alt={el.id} className="card__img" />
+          <div className="card__img">
+            <img src={el.imagePath} alt={el.id} className="card__img" />
+          </div>
 
-          <div className="card__img--overlay"></div>
-          <p className="card-label">{el.label}</p>
+          {/*<div className="card__img--overlay"></div>*/}
+          <div className="card-label">{el.label.toUpperCase()}</div>
         </div>
       </Link>
     );
@@ -94,7 +98,7 @@ const HomePage = () => {
           */}
         </div>
         <div className="home__search-container">
-          <SearchBar />
+          <SearchBar /> <SearchViewAllRecipes />
         </div>
       </section>
 
@@ -167,24 +171,24 @@ const HomePage = () => {
               <div className=" second-card__img-1">
                 <Link
                   onClick={() => handleClick()}
-                  to={`/recipe-pages/:${RECIPES[2].id - 1}`}
+                  to={`/recipe-pages/:${RECIPES[12].id - 1}`}
                   className=""
                 >
                   <img
-                    src={RECIPES[2].imagePath}
+                    src={RECIPES[12].imagePath}
                     alt="img"
                     className="second-card__img second-card__img-1"
                   />
                 </Link>
               </div>
               <div className="second-card__text ">
-                <div className="second-card__title">{RECIPES[2].name}</div>
+                <div className="second-card__title">{RECIPES[12].name}</div>
                 <div className="second-card__description">
-                  {RECIPES[2].steps}...
+                  {RECIPES[12].steps.slice(0, 2)}...
                 </div>
                 <Link
                   onClick={() => handleClick()}
-                  to={`/recipe-pages/:${RECIPES[2].id - 1}`}
+                  to={`/recipe-pages/:${RECIPES[12].id - 1}`}
                   className="second-card__button-continue"
                 >
                   Continue Reading
@@ -194,6 +198,7 @@ const HomePage = () => {
             <div className="homepage-second__devider-line"></div>
           </div>
         </div>
+        <ScrollUpBtn />
       </section>
     </>
   );

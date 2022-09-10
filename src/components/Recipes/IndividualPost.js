@@ -2,6 +2,8 @@ import React from "react";
 import RECIPES from "../SearchBar/RECIPES.json";
 import "./IndividualPost.css";
 import { useParams } from "react-router-dom";
+// import SearchViewAllRecipes from "../SearchBar/SearchViewAllRecipes";
+import { Link } from "react-router-dom";
 
 const IndividualPost = () => {
   const params = useParams();
@@ -57,6 +59,14 @@ const IndividualPost = () => {
               }
             })}
           </div>
+          <Link to="/recipe" className="search__view-all-link">
+            <span className="search__view-all-span">View all Recipes</span>
+          </Link>
+          <Link to="/" className="share-on-social-media-btn">
+            <span className="share-on-social-media-btn-span">
+              Share on social media
+            </span>
+          </Link>
         </div>
       </div>
     </div>
