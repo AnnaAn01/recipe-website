@@ -117,7 +117,8 @@
 /* For hovering over the label too */
 .card__img:hover + .card-label {
   transition: opacity 0.3s ease-in-out;
-  opacity: 0.75;
+  /* opacity: 0.75; */
+  background-color: rgb(90, 207, 27);
 }
 
 /* .card__img-1 {
