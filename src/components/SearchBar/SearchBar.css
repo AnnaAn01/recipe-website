@@ -111,7 +111,7 @@
   flex-basis: 50%;
   justify-content: flex-start;
   align-items: flex-start;
-  text-align: start;
+  text-align: left;
   /* border-right: 2px solid green; */
   margin: 1rem 2rem;
   font-size: 2rem;

@@ -100,15 +100,6 @@
   position: sticky;
 }
 
-/* .card__img--overlay {
-  
-  height: auto;
-  background-color: white;
-  opacity: 1;
-  transition: opacity 0.3s ease-in-out;
-  
-} */
-
 .card__img:hover {
   transition: opacity 0.3s ease-in-out;
   opacity: 0.75;
@@ -120,22 +111,6 @@
   /* opacity: 0.75; */
   background-color: rgb(90, 207, 27);
 }
-
-/* .card__img-1 {
-  background-image: url("../../images-src/homepage-main-5.jpg");
-}
-
-.card__img-2 {
-  background-image: url("../../images-src/homepage-main-6.jpg");
-}
-
-.card__img-3 {
-  background-image: url("../../images-src/homepage-main-7.jpg");
-}
-
-.card__img-4 {
-  background-image: url("../../images-src/homepage-main-8.jpg");
-} */
 
 .home__search-container {
   margin-top: 8rem;
