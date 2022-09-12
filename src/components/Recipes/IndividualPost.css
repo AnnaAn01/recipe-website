@@ -88,6 +88,7 @@
 
 .individual-post__ingredients-name {
   font-size: 2rem;
+  list-style-image: url(../../images-src/avo-25px-li-two.png);
 }
 
 .share-on-social-media-btn {
