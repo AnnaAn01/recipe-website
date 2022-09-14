@@ -354,7 +354,7 @@
       "About 6 1/2 dozen cookies."
     ],
     "timers": [15, 0, 0, 0, 0, 0, 0, 0, 8, 0],
-    "imageURL": "http://s3.amazonaws.com/gmi-digital-library/65caecf7-a8f7-4a09-8513-2659cf92871e.jpg",
+    "imageURL": "",
     "imagePath": "recipe-img/old-fashioned-oatmeal-cookies.jpg",
     "originalURL": "#"
   },
@@ -426,7 +426,7 @@
       "(Make-ahead: Cover and refrigerate for up to 2 days or overwrap with heavy-duty foil and freeze for up to 2 weeks.)"
     ],
     "timers": [10, 1, 60, 0, 0, 45, 0, 0],
-    "imageURL": "http://www.canadianliving.com/img/photos/biz/blueberry-oatmeal-squares5801359401371.jpg",
+    "imageURL": "",
     "imagePath": "recipe-img/blueberry-oatmeal-squares.jpg",
     "originalURL": "http://www.canadianliving.com/food/blueberry_oatmeal_squares.php"
   },
