@@ -15,12 +15,7 @@
   justify-content: flex-start;
   flex-wrap: wrap;
   display: grid;
-  /* grid-template-columns: 1fr 1fr; */
-  /* height: 90vh; */
-  /* grid-gap: 10rem; */
   height: auto;
-  /* width: 100rem; */
-  /* width: 75rem; */
   padding-bottom: 5rem;
   /* background-color: yellow; */
 }
