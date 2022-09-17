@@ -116,7 +116,6 @@ import RECIPES from "./RECIPES.json";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { ImSpoonKnife } from "react-icons/im";
-import Img1 from "../../images-src/recipe-img/big-night-pizza-1.jpg";
 import SearchViewAllRecipes from "./SearchViewAllRecipes";
 
 const SearchBar = (posts) => {
