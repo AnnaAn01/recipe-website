@@ -32,17 +32,14 @@
 .individual-post__title {
   font-size: 5rem;
   color: red;
-  /* background-color: yellow; */
   padding: 2rem 0rem;
   /* width: 75rem; */
 }
 
 .individual-post__opening-text {
   font-size: 2rem;
-  /* background-color: greenyellow; */
   padding: 2rem 0rem;
   text-align: justify;
-  /* text-justify: inter-word; */
   text-justify: auto;
   width: auto;
 }
@@ -63,7 +60,6 @@
 }
 
 .individual-post__steps {
-  /* background-color: aquamarine; */
   padding: 2rem 0rem;
   width: 75rem;
 }
