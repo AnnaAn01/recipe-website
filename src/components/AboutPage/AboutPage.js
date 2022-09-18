@@ -32,7 +32,7 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="home__search-container">
-          <SearchBar /> <SearchViewAllRecipes />
+          <SearchBar homepage="true" />
         </div>
       </section>
     </>

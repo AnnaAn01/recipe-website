@@ -110,7 +110,7 @@ const Recipes = () => {
         <div className="recipes__wrapper">
           <div className="recipes__title">Find our recipes below</div>
           <div className="recipes-search__wrapper">
-            <SearchBar />
+            <SearchBar homepage="false" />
           </div>
           <div className="recipes__all-container">
             <div className="recipes__all-wrapper">
