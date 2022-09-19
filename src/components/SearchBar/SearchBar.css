@@ -6,6 +6,7 @@
   align-items: center;
   text-align: center;
   /* max-width: 40rem; */
+  max-width: inherit;
 }
 
 .search-wrapper {
@@ -117,7 +118,7 @@
 
 .search__value-wrapper {
   text-align: right;
-  width: 100%;
+  /* width: 100%; */
 
   border: 1px dotted rgba(69, 176, 12, 1);
   border-radius: 1px;
@@ -129,7 +130,7 @@
 
 .search__value-name {
   /* background-color: red; */
-  flex-basis: 70%;
+  /* flex-basis: 70%; */
   justify-content: flex-start;
   align-items: flex-start;
   text-align: left;
@@ -137,7 +138,8 @@
   margin: 1rem 1rem;
   font-size: 2rem;
   font-weight: 400;
-  max-width: 17vw;
+  width: 70%;
+  /* color: red; */
 }
 
 .search__value-name:hover + .search__value-img-wrapper {
