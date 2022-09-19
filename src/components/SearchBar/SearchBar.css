@@ -8,10 +8,8 @@
   /* max-width: 40rem; */
 }
 
-/* .search-wrapper {
-  display: flex;
-  flex-direction: column;
-} */
+.search-wrapper {
+}
 
 .search__view-all-wrapper {
   /* display: flex;
@@ -86,7 +84,9 @@
   margin-top: 2rem;
   max-height: 300px;
   overflow-y: auto;
+  overflow-wrap: break-word;
   margin-bottom: 5rem;
+  /* background-color: blueviolet; */
 }
 
 .search__value-div {
@@ -104,6 +104,7 @@
 
   /* overflow-y: auto; */
   overflow-y: scroll;
+  background-color: yellow;
 }
 
 .search__value-link-returned {
