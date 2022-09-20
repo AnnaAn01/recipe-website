@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/recipe-website/static/css/main.7574e3f2.css",
+    "main.js": "/recipe-website/static/js/main.4e0e04aa.js",
+    "static/media/about-img-1.jpg": "/recipe-website/static/media/about-img-1.762b77d7ac2c69bf5a0e.jpg",
+    "static/media/big-night-pizza-1.jpg": "/recipe-website/static/media/big-night-pizza-1.8f95d0baa44372ff1fb1.jpg",
+    "index.html": "/recipe-website/index.html",
+    "main.7574e3f2.css.map": "/recipe-website/static/css/main.7574e3f2.css.map",
+    "main.4e0e04aa.js.map": "/recipe-website/static/js/main.4e0e04aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7574e3f2.css",
+    "static/js/main.4e0e04aa.js"
+  ]
+}
