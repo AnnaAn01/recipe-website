@@ -69,9 +69,7 @@
 } */
 
 .recipes__all-list-wrapper {
-  /* position: relative; */
   height: 25vh;
-  /* background-color: red; */
   height: 100%;
   justify-content: center;
   align-items: center;
@@ -89,7 +87,6 @@
 }
 
 .recipes__list {
-  /* border: 1px solid black; */
   height: auto;
   font-size: 2rem;
   z-index: 1000;
@@ -98,7 +95,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  /* background-color: aquamarine; */
 }
 
 .recipes__img {
