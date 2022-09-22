@@ -6,7 +6,6 @@ import AboutPage from "./components/AboutPage/AboutPage";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Recipes from "./components/Recipes/Recipes";
 import IndividualPost from "./components/Recipes/IndividualPost";
-import RECIPES from "./components/SearchBar/RECIPES.json";
 import HomepageShowGroup from "./components/HomePage/HomepageShowGroup/HomepageShowGroup";
 
 function App() {
