@@ -13,9 +13,6 @@
 }
 
 .footer__sns-wrapper {
-  /* background-color: rgb(91, 91, 241); */
-  /* height: 20vh; */
-  /* margin-top: 2rem; */
 }
 
 .footer__sns-icons {
@@ -23,7 +20,6 @@
   color: #3c341f;
   font-size: 4rem;
   margin-right: 1.5rem;
-  /* background-color: red; */
 }
 
 .footer__sns-icons:hover {
