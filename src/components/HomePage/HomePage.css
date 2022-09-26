@@ -116,6 +116,7 @@
   margin-top: 8rem;
   display: flex;
   justify-content: center;
+  /* background-color: red; */
 }
 
 .homepage-second__container {
@@ -251,17 +252,6 @@
     width: 22rem;
     height: 32rem;
   }
-
-  /* .card__img {
-    width: 23rem;
-    height: 35rem;
-
-    background-repeat: no-repeat;
-    background-size: 100%;
-    align-items: center;
-    border-radius: 3px;
-    text-align: center;
-  } */
 }
 
 @media screen and (max-width: 1024px) and (min-width: 1001px) {
