@@ -114,7 +114,7 @@ const HomePage = () => {
                 <Link
                   onClick={() => handleClick()}
                   to={`/recipe-pages/:${RECIPES[0].id - 1}`}
-                  className=""
+                  className="second-card__button-continue"
                 >
                   <img
                     src={RECIPES[0].imagePath}
@@ -133,7 +133,7 @@ const HomePage = () => {
                   to={`/recipe-pages/:${RECIPES[0].id - 1}`}
                   className="second-card__button-continue"
                 >
-                  Continue Reading
+                  Read Details
                 </Link>
               </div>
             </div>
@@ -162,7 +162,7 @@ const HomePage = () => {
                   to={`/recipe-pages/:${RECIPES[1].id - 1}`}
                   className="second-card__button-continue"
                 >
-                  Continue Reading
+                  Read Details
                 </Link>
               </div>
             </div>
@@ -191,7 +191,7 @@ const HomePage = () => {
                   to={`/recipe-pages/:${RECIPES[12].id - 1}`}
                   className="second-card__button-continue"
                 >
-                  Continue Reading
+                  Read Details
                 </Link>
               </div>
             </div>
