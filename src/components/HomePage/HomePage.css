@@ -357,8 +357,6 @@
   .second-card__img {
     width: 25vh;
     height: 25vh;
-    /* justify-content: center;
-    align-items: center; */
     border-radius: 3px;
     margin-right: 2rem;
     /* background-color: blue; */
@@ -373,19 +371,15 @@
     display: flex;
     height: auto;
     padding: 1rem 3rem;
-    /* width: 50%; */
   }
 
   .second-card__text {
-    /* display: flex; */
-    /* font-size: 2rem; */
     flex-direction: column;
     margin-left: 0rem;
     padding: 0 2rem;
 
     width: 100%;
     line-height: 2;
-    /* background-color: red; */
   }
 
   .second-card__title {
