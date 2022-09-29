@@ -30,12 +30,9 @@ const HomepageShowGroup = () => {
       : id === "spicy"
       ? 3
       : "";
-  // console.log("id", id);
+
   console.log(HomePageSectionOne.length);
   let groupTitle = HomePageSectionOne[hpSectionOneId].label;
-
-  // console.log("id inside HSG", id);
-  // console.log(HomePageSectionOne[0].imagePath);
 
   const foodGroups = RECIPES.map((el, index) => {
     if (id === el.group) {
@@ -48,7 +45,6 @@ const HomepageShowGroup = () => {
             id={el.showId}
             src={el}
           >
-            {/*{console.log(el.currentPage)}*/}
             <img className="show__item-img" alt="food" src={el.imagePath} />
             <div className="show__item-name">{el.name}</div>
           </div>
