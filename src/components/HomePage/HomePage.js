@@ -97,11 +97,10 @@ const HomePage = () => {
           </Link>
           */}
         </div>
-        <div className="home__search-container">
-          <SearchBar homepage="true" /> {/*<SearchViewAllRecipes />*/}
-        </div>
       </section>
-
+      <section className="home__search-container">
+        <SearchBar homepage="true" /> {/*<SearchViewAllRecipes />*/}
+      </section>
       <section className="homepage-second__container">
         <div className="homepage-second__wrapper">
           <h1 className="homepage-second__section-title">

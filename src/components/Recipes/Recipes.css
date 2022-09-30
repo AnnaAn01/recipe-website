@@ -26,8 +26,10 @@
   justify-content: center;
   display: flex;
   /* background-color: rgba(230, 230, 230, 1); */
-  height: auto;
+  height: 100%;
   width: 40rem;
+  /* background-color: red; */
+  margin-bottom: -4rem;
 }
 
 .recipes__title {
@@ -69,7 +71,6 @@
 } */
 
 .recipes__all-list-wrapper {
-  height: 25vh;
   height: 100%;
   justify-content: center;
   align-items: center;
