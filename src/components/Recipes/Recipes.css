@@ -25,10 +25,8 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  /* background-color: rgba(230, 230, 230, 1); */
   height: 100%;
   width: 40rem;
-  /* background-color: red; */
   margin-bottom: -4rem;
 }
 
@@ -65,10 +63,6 @@
   text-align: center;
   color: rgba(69, 176, 12, 1);
 }
-
-/* .recipes__all-list-container {
-  position: relative;
-} */
 
 .recipes__all-list-wrapper {
   height: 100%;
@@ -133,11 +127,6 @@
 
 .pagination-container {
   text-decoration: none;
-  /* background-color: pink; */
-  /* width: 20rem;
-  justify-content: center;
-  align-items: center;
-  text-align: center; */
   margin: 3rem 1rem;
   justify-content: center;
   align-items: center;
