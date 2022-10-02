@@ -2,12 +2,8 @@
   display: flex;
   position: relative;
   background-color: rgb(249, 244, 244);
-  /* background-color: yellow; */
   padding: 0rem 15rem 0rem 15rem;
-  /* height: 90vh; */
-
   flex-direction: column;
-
   height: auto;
 }
 

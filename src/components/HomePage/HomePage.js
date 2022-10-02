@@ -24,13 +24,10 @@ const HomePage = () => {
           id={el.id}
           key={el.id}
           label={el.label.toUpperCase()}
-          // src={el.imagePath}
         >
           <div className="card__img">
             <img src={el.imagePath} alt={el.id} className="card__img" />
           </div>
-
-          {/*<div className="card__img--overlay"></div>*/}
           <div className="card-label">{el.label.toUpperCase()}</div>
         </div>
       </Link>
