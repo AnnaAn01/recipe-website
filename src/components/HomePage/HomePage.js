@@ -5,7 +5,6 @@ import HomePageSectionOne from "./HomePageSectionOne.json";
 import SearchBar from "../SearchBar/SearchBar";
 import RECIPES from "../SearchBar/RECIPES.json";
 import { Link } from "react-router-dom";
-import SearchViewAllRecipes from "../SearchBar/SearchViewAllRecipes";
 import ScrollUpBtn from "../ScrollUpButton/ScrollUpBtn";
 
 const HomePage = () => {
@@ -43,57 +42,7 @@ const HomePage = () => {
         </h1>
       </div>
       <section className="homepage-first__container">
-        <div className="homepage-first__wrapper">
-          {homeSetionOne}
-          {/*<Link
-            // to show the item numbers on pages 2 and 3
-            // to={`/recipe-pages/:${0}`}
-            to={`/homapage-show-group/:postid`}
-            className="recipes__list-link"
-          >
-            <div className="homepage-first__card" id="pasta">
-              <div className="card__img card__img-1">
-                <div className="card__img--overlay"></div>
-                <p className="card-label">PASTA</p>
-              </div>
-            </div>
-  </Link>
-          
-          <Link
-            to={`/homapage-show-group/:postid`}
-            className="recipes__list-link"
-          >
-            <div className="homepage-first__card" id="snacks">
-              <div className="card__img card__img-2">
-                <div className="card__img--overlay"></div>
-                <p className="card-label">SNACKS</p>
-              </div>
-            </div>
-          </Link>
-          <Link
-            to={`/homapage-show-group/:postid`}
-            className="recipes__list-link"
-          >
-            <div className="homepage-first__card" id="oven">
-              <div className="card__img card__img-3">
-                <div className="card__img--overlay"></div>
-                <p className="card-label">OVEN</p>
-              </div>
-            </div>
-          </Link>
-          <Link
-            to={`/homapage-show-group/:postid`}
-            className="recipes__list-link"
-          >
-            <div className="homepage-first__card" id="spicy">
-              <div className="card__img card__img-4">
-                <div className="card__img--overlay"></div>
-                <p className="card-label">SPICY</p>
-              </div>
-            </div>
-          </Link>
-          */}
-        </div>
+        <div className="homepage-first__wrapper">{homeSetionOne}</div>
       </section>
       <section className="home__search-container">
         <SearchBar homepage="true" /> {/*<SearchViewAllRecipes />*/}
