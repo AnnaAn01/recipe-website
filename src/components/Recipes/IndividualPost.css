@@ -1,6 +1,5 @@
 .recipe-pages {
   height: auto;
-  /* background-color: yellow; */
   display: flex;
   background-color: rgb(249, 244, 244);
   padding: 0rem 15rem;
@@ -17,12 +16,10 @@
   display: grid;
   height: auto;
   padding-bottom: 5rem;
-  /* background-color: yellow; */
 }
 
 .individual-post__inner-wrapper {
   width: 80rem;
-  /* background-color: rgba(173, 255, 47, 0.5); */
   border-radius: 3px;
   padding: 2rem;
   justify-content: center;
@@ -33,7 +30,6 @@
   font-size: 5rem;
   color: red;
   padding: 2rem 0rem;
-  /* width: 75rem; */
 }
 
 .individual-post__opening-text {
@@ -51,11 +47,9 @@
 .individual-recipe__img {
   width: 75rem;
   object-fit: cover;
-  /* object-fit: contain; */
   height: 40vw;
   justify-content: center;
   align-items: center;
-
   border-radius: 3px;
 }
 
