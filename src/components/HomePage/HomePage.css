@@ -93,10 +93,7 @@
   margin: auto;
   width: 50%;
   font-weight: 500;
-  /* padding: 0.2rem; */
   color: #fff;
-  /* margin-top: -0.35rem; */
-  /* z-index: 10000; */
   margin-top: -1rem;
   position: sticky;
 }
@@ -109,7 +106,6 @@
 /* For hovering over the label too */
 .card__img:hover + .card-label {
   transition: opacity 0.3s ease-in-out;
-  /* opacity: 0.75; */
   background-color: rgb(90, 207, 27);
 }
 
@@ -117,7 +113,6 @@
   margin-top: 5rem;
   display: flex;
   justify-content: center;
-  /* background-color: red; */
 }
 
 .homepage-second__container {
