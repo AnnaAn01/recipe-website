@@ -3,9 +3,7 @@
   display: flex;
   background-color: rgb(249, 244, 244);
   padding: 0rem 15rem;
-  /* height: auto; */
   flex-direction: column;
-  /* width: 75rem; */
 }
 
 .individual-post__wrapper {
