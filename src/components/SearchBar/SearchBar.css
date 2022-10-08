@@ -15,12 +15,9 @@
 }
 
 .search__view-all-wrapper {
-  /* display: flex;
-  flex-direction: row; */
 }
 
 .show-all-recipe-btn {
-  /* display: none; */
 }
 
 .hide-all-recipe-btn {
@@ -53,10 +50,6 @@
   border: 2px solid rgba(69, 176, 12, 1);
   box-shadow: 0 0 5px rgba(69, 176, 12, 0.5);
 }
-
-/* .search-input::placeholder {
-    padding-left: 40px;
-  } */
 
 .search__or-span {
   padding: 2rem;
