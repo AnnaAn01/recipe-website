@@ -60,7 +60,7 @@ const IndividualPost = () => {
             })}
           </div>
           <Link to="/recipe" className="search__view-all-link">
-            <span className="search__view-all-span">View all Recipes</span>
+            <span className="search__view-all-btn">View all Recipes</span>
           </Link>
           <Link to="/" className="share-on-social-media-btn">
             <span className="share-on-social-media-btn-span">
