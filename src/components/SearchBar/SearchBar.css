@@ -33,6 +33,7 @@
   padding-left: 10px;
   padding-top: 10px;
   color: rgba(69, 176, 12, 1);
+  z-index: 1;
 }
 
 .search-input {

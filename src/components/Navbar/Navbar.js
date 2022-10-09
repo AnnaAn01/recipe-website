@@ -5,11 +5,13 @@ import { NavLink } from "react-router-dom";
 import NavLinks from "./NavLinks";
 import { Link as LinkS } from "react-scroll";
 import Navigation from "./Navigation";
+import MobileNavigation from "./MobileNavigation";
 
 const Navbar = () => {
   return (
     <>
       <Navigation />
+      <MobileNavigation />
     </>
   );
 };
