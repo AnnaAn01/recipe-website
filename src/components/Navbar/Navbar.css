@@ -1,6 +1,5 @@
 .navbar {
   width: auto;
-  /* height: 15vh; */
   display: flex;
   align-items: center;
   padding: 2rem 20rem;
@@ -12,7 +11,6 @@
   margin-right: auto;
   font-size: 4rem;
   font-weight: 600;
-  /* margin-left: 20rem; */
   cursor: pointer;
   text-decoration: none;
   color: black;
@@ -101,7 +99,6 @@
     display: flex;
 
     align-items: center;
-    /* background-color: red; */
     height: 8rem;
     justify-content: center;
   }
@@ -153,14 +150,6 @@
 }
 
 @media screen and (max-width: 568px) {
-  /* .navbar__title {
-    font-size: 2.7rem;
-  } */
-
-  /* .navbar__item-link {
-    font-size: 2.5rem;
-    margin-right: 2rem;
-  } */
 }
 
 @media screen and (max-width: 451px) {
