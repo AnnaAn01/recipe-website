@@ -23,8 +23,6 @@ const Posts = ({ posts, loading, setPostid, currentPage, postsPerPage }) => {
         }`}
         className="recipes__list-link"
       >
-        {/*{console.log(postsPerPage)}*/}
-        {/*<Link to={`/recipe-pages/:${index}`}>*/}
         <div
           name={el.name}
           key={el.index}
@@ -33,7 +31,6 @@ const Posts = ({ posts, loading, setPostid, currentPage, postsPerPage }) => {
           src={el}
           onClick={(index) => handleClick(index, el)}
         >
-          {/*{console.log(el.currentPage)}*/}
           <img className="recipes__img" alt="food" src={el.imagePath} />
           <div className="recipes__list-name">{el.name}</div>
         </div>
