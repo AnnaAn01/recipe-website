@@ -88,7 +88,6 @@ const Recipes = () => {
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(12);
-  // const [postid, setPostid] = useState(0);
 
   // Change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);

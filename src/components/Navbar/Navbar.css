@@ -24,8 +24,6 @@
   align-items: center;
   font-weight: 600;
 }
-.navbar__item {
-}
 
 .navbar__item-link {
   cursor: pointer;

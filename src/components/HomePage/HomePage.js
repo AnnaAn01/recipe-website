@@ -45,7 +45,7 @@ const HomePage = () => {
         <div className="homepage-first__wrapper">{homeSetionOne}</div>
       </section>
       <section className="home__search-container">
-        <SearchBar homepage="true" /> {/*<SearchViewAllRecipes />*/}
+        <SearchBar homepage="true" />
       </section>
       <section className="homepage-second__container">
         <div className="homepage-second__wrapper">
