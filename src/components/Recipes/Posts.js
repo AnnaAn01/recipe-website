@@ -22,6 +22,7 @@ const Posts = ({ posts, loading, setPostid, currentPage, postsPerPage }) => {
           // el.page === 1 ? index : 12 * (el.page - 1) + index
         }`}
         className="recipes__list-link"
+        key={el.id}
       >
         <div
           name={el.name}

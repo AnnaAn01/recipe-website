@@ -145,10 +145,14 @@
 }
 
 .page-item {
-  margin-left: 1rem;
+  margin-left: 2rem;
   width: 4rem;
   background-color: rgb(207, 204, 204);
   border-radius: 3px;
+}
+
+.activePage {
+  background-color: orange;
 }
 
 .page-link {
@@ -159,17 +163,26 @@
   padding: 1rem;
 }
 
-.page-link:link,
+.active-page-link {
+  color: white;
+}
+
+/* .page-link.active {
+  color: orange;
+  background-color: red;
+} */
+
+/* .page-link:link,
 .page-link:hover,
 .page-link:active,
 .page-link:focus {
   color: white;
-}
+} */
 
-.page-item:link,
+/* .page-item:link,
 .page-item:hover,
 .page-item:active,
 .page-item:focus-within,
 .page-item:focus-visible {
   background-color: green;
-}
+} */

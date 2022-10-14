@@ -82,12 +82,15 @@ import { MdRestaurantMenu } from "react-icons/md";
 import Posts from "./Posts";
 import Pagination from "./Pagination";
 import ScrollUpBtn from "../ScrollUpButton/ScrollUpBtn";
+import { useParams } from "react-router-dom";
 
 const Recipes = () => {
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(12);
+
+  const params = useParams();
 
   // Change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
@@ -102,6 +105,8 @@ const Recipes = () => {
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPage = indexOfLastPost - postsPerPage;
   const currentPosts = posts.slice(indexOfFirstPage, indexOfLastPost);
+
+  // console.log("This is the currentPage RECIPES", currentPage);
 
   return (
     <>
@@ -124,6 +129,7 @@ const Recipes = () => {
                     postsPerPage={postsPerPage}
                     totalPosts={posts.length}
                     paginate={paginate}
+                    currentPage={currentPage}
                   />
                 </div>
               </div>
