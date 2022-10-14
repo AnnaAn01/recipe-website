@@ -5,9 +5,6 @@ const Posts = ({ posts, loading, setPostid, currentPage, postsPerPage }) => {
     return <h2>Loading...</h2>;
   }
 
-  // console.log(currentPage);
-  // let { userId } = useParams();
-
   const handleClick = (index, el) => {
     window.scrollTo(0, 0);
   };
