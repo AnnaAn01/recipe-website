@@ -14,8 +14,6 @@ const Recipes = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(12);
 
-  const params = useParams();
-
   // Change page
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
@@ -29,8 +27,6 @@ const Recipes = () => {
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPage = indexOfLastPost - postsPerPage;
   const currentPosts = posts.slice(indexOfFirstPage, indexOfLastPost);
-
-  // console.log("This is the currentPage RECIPES", currentPage);
 
   return (
     <>
