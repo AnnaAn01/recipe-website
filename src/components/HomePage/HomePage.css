@@ -2,21 +2,13 @@
   height: 100%;
 }
 
-/* .homepage__wrapper {
-  background-color: rgb(249, 244, 244);
-  padding: 1rem 20rem;
-} */
-
 .homepage__title-area {
   display: flex;
   background-color: #fff;
-
-  /* height: 12vh; */
   align-items: center;
   justify-content: center;
   padding: 2rem;
   width: auto;
-  /* background-color: red; */
 }
 
 .homepage__title-h1 {
@@ -35,7 +27,6 @@
   height: auto;
   flex-direction: column;
   width: 100%;
-  /* background-color: red; */
 }
 
 .homepage-first__wrapper {
