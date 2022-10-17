@@ -1,9 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Recipes.css";
 import React, { useState } from "react";
-import ReactPaginate from "react-paginate";
-import { NavLink } from "react-router-dom";
-import { useParams } from "react-router-dom";
 
 const Pagination = ({ postsPerPage, totalPosts, paginate, currentPage }) => {
   const pageNumbers = [];
