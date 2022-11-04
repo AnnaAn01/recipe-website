@@ -25,6 +25,8 @@
   height: auto;
   flex-direction: column;
   width: 100%;
+  /* editing for carousel */
+  position: relative;
 }
 
 .homepage-first__wrapper {
@@ -34,6 +36,11 @@
   flex-wrap: wrap;
   width: 100%;
   height: 100%;
+  /* editing for carousel */
+  background-color: red;
+  padding: 0 10rem;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .homepage-first__card {
@@ -41,6 +48,14 @@
   height: 38rem;
   margin: 1rem;
   margin-top: -1rem;
+  background-position: center;
+  /* editing for carousel */
+  /* width: 100%;
+  height: 100%;
+  background-position: center;
+  width: 27rem;
+  height: 38rem;
+  margin-right: 2rem; */
 }
 
 .homepage-first__card:hover {
@@ -196,7 +211,7 @@
   opacity: 0.6;
 }
 
-.dancng-font {
+.dancing-font {
   font-family: "Dancing Script";
   font-weight: bold;
   font-size: 2.7rem;

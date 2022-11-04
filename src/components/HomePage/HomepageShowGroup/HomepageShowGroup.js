@@ -29,6 +29,8 @@ const HomepageShowGroup = () => {
       ? 2
       : id === "spicy"
       ? 3
+      : id === "vegan"
+      ? 4
       : "";
 
   console.log(HomePageSectionOne.length);

@@ -6,11 +6,22 @@ import SearchBar from "../SearchBar/SearchBar";
 import RECIPES from "../SearchBar/RECIPES.json";
 import { Link } from "react-router-dom";
 import ScrollUpBtn from "../ScrollUpButton/ScrollUpBtn";
+import HomeCarousel from "./HomeCarousel/HomeCarousel";
+import ImgCarousel1 from "../../images-src/recipe-img/homepage-pasta.jpg";
 
 const HomePage = () => {
   const handleClick = () => {
     window.scrollTo(0, 0);
   };
+
+  // for carousel
+  const slides = [
+    { url: "recipe-img/homepage-pasta.jpg" },
+    { url: "recipe-img/homepage-main-6.jpg" },
+    { url: "recipe-img/homepage-main-7.jpg" },
+    { url: "recipe-img/homepage-main-8.jpg" },
+    { url: "recipe-img/curried-chicken-salad.jpg" },
+  ];
 
   const homeSetionOne = HomePageSectionOne.map((el, index) => {
     return (
@@ -38,11 +49,15 @@ const HomePage = () => {
       <div className="homepage__title-area">
         <h1 className="homepage__title-h1">
           Simple & Quick Recpes
-          <span className="dancng-font"> For Everyday Life</span>
+          <span className="dancing-font"> For Everyday Life</span>
         </h1>
       </div>
       <section className="homepage-first__container">
+        {/*<div className="homepage-first__wrapper">{homeSetionOne}</div> */}
         <div className="homepage-first__wrapper">{homeSetionOne}</div>
+        <div className="homepage-first__carousel-wrapper">
+          <HomeCarousel slides={slides} />
+        </div>
       </section>
       <section className="home__search-container">
         <SearchBar homepage="true" />

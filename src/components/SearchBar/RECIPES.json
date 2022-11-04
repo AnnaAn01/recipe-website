@@ -683,7 +683,7 @@
     "name": "Avocado Toast",
     "id": 12,
     "page": 1,
-    "group": "",
+    "group": "vegan",
     "ingredients": [
       {
         "quantity": "3",
@@ -847,7 +847,7 @@
     "name": "Roasted Asparagus",
     "id": 14,
     "page": 2,
-    "group": "",
+    "group": "vegan",
     "ingredients": [
       {
         "quantity": "1 lb",
@@ -879,7 +879,7 @@
     ],
     "timers": [0, 0, 0, 0, 0, 0, 10, 0, 0, 0],
     "imageURL": "http://img.sndimg.com/food/image/upload/w_266/v1/img/recipes/50/84/7/picMcSyVd.jpg",
-    "imagePath": "recipe-img/page-2.jpg",
+    "imagePath": "recipe-img/roasted-asparagus.jpg",
     "originalURL": "http://www.food.com/recipe/roasted-asparagus-50847"
   },
   {
