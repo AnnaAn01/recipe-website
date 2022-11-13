@@ -7,6 +7,7 @@ import RECIPES from "../SearchBar/RECIPES.json";
 import { Link } from "react-router-dom";
 import ScrollUpBtn from "../ScrollUpButton/ScrollUpBtn";
 import HomeCarousel from "./HomeCarousel/HomeCarousel";
+import Carousel from "./HomeCarousel/Carousel";
 import ImgCarousel1 from "../../images-src/recipe-img/homepage-pasta.jpg";
 
 const HomePage = () => {
@@ -16,11 +17,12 @@ const HomePage = () => {
 
   // for carousel
   const slides = [
-    { url: "recipe-img/homepage-pasta.jpg" },
-    { url: "recipe-img/homepage-main-6.jpg" },
-    { url: "recipe-img/homepage-main-7.jpg" },
-    { url: "recipe-img/homepage-main-8.jpg" },
-    { url: "recipe-img/curried-chicken-salad.jpg" },
+    { url: "recipe-img/homepage-pasta.jpg", id: 0 },
+    { url: "recipe-img/homepage-main-6.jpg", id: 1 },
+    { url: "recipe-img/homepage-main-7.jpg", id: 3 },
+    { url: "recipe-img/homepage-main-8.jpg", id: 4 },
+    { url: "recipe-img/curried-chicken-salad.jpg", id: 5 },
+    { url: "recipe-img/curried-chicken-salad.jpg", id: 6 },
   ];
 
   const homeSetionOne = HomePageSectionOne.map((el, index) => {
@@ -54,9 +56,10 @@ const HomePage = () => {
       </div>
       <section className="homepage-first__container">
         {/*<div className="homepage-first__wrapper">{homeSetionOne}</div> */}
-        <div className="homepage-first__wrapper">{homeSetionOne}</div>
+        {/*<div className="homepage-first__wrapper">{homeSetionOne}</div>*/}
         <div className="homepage-first__carousel-wrapper">
-          <HomeCarousel slides={slides} />
+          {/*<HomeCarousel slides={slides} />*/}
+          <Carousel />
         </div>
       </section>
       <section className="home__search-container">
