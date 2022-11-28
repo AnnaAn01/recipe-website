@@ -261,23 +261,25 @@ function Carousel() {
 
   return (
     <>
-      <div
-        className="carousel-cont text-xl md:text-5xl cursor-pointer"
-        onClick={() => handleLeftClick()}
-      >
-        {"<"}
-      </div>
-      {cards
-        .filter((f) => f.active === true)
-        .sort((a, b) => (a.pos > b.pos ? 1 : b.pos > a.pos ? -1 : 0))
-        .map((card, index) => (
-          <Card key={index} prop={card.img} />
-        ))}
-      <div
-        className="text-xl md:text-5xl cursor-pointer"
-        onClick={() => handleRightClick()}
-      >
-        {">"}
+      <div className="carousel__container">
+        <div
+          className="carousel-cont text-xl md:text-5xl cursor-pointer"
+          onClick={() => handleLeftClick()}
+        >
+          {"<"}
+        </div>
+        {cards
+          .filter((f) => f.active === true)
+          .sort((a, b) => (a.pos > b.pos ? 1 : b.pos > a.pos ? -1 : 0))
+          .map((card, index) => (
+            <Card key={index} prop={card.img} />
+          ))}
+        <div
+          className="text-xl md:text-5xl cursor-pointer"
+          onClick={() => handleRightClick()}
+        >
+          {">"}
+        </div>
       </div>
     </>
   );

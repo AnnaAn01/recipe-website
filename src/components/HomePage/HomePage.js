@@ -25,7 +25,7 @@ const HomePage = () => {
     { url: "recipe-img/curried-chicken-salad.jpg", id: 6 },
   ];
 
-  const homeSetionOne = HomePageSectionOne.map((el, index) => {
+  const homeSectionOne = HomePageSectionOne.map((el, index) => {
     return (
       <Link
         to={`/homapage-show-group/:${el.id}`}
@@ -56,10 +56,10 @@ const HomePage = () => {
       </div>
       <section className="homepage-first__container">
         {/*<div className="homepage-first__wrapper">{homeSetionOne}</div> */}
-        {/*<div className="homepage-first__wrapper">{homeSetionOne}</div>*/}
+        <div className="homepage-first__wrapper">{homeSectionOne}</div>
         <div className="homepage-first__carousel-wrapper">
           {/*<HomeCarousel slides={slides} />*/}
-          <Carousel />
+          {/*<Carousel />*/}
         </div>
       </section>
       <section className="home__search-container">

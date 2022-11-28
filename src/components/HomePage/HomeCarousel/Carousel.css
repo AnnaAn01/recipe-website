@@ -36,4 +36,17 @@
   font-size: 0.875rem;
   line-height: 1.25rem;
   cursor: pointer;
+  background-color: green;
+}
+
+.card {
+  display: flex;
+  margin: 2rem;
+}
+
+.carousel__container {
+  display: flex;
+  flex-direction: row;
+  /* background-color: red; */
+  padding: 10rem;
 }
