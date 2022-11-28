@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  padding: 1.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 2.5rem;
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+}
+
+.carousel-cont {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .carousel-cont {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+.text-sm {
+  color: #6b7280;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  cursor: pointer;
+}
