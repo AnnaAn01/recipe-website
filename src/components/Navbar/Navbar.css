@@ -136,10 +136,13 @@
   }
 
   .navbar__title {
+    display: flex;
+    position: relative;
     margin-left: 5%;
     font-size: 2.5rem;
     width: 100%;
     font-weight: 700;
+    /* background-color: red; */
   }
 }
 
