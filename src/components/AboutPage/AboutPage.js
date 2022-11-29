@@ -1,7 +1,8 @@
 import React from "react";
 import "./AboutPage.css";
 import SearchBar from "../SearchBar/SearchBar";
-import aboutImg from "../../images-src/about-img-1.jpg";
+// import aboutImg from "../../images-src/about-img-1.jpg";
+import aboutImg from "../../images-src/about-img-2.jpg";
 import SearchViewAllRecipes from "../SearchBar/SearchViewAllRecipes";
 
 const AboutPage = () => {
@@ -31,7 +32,7 @@ const AboutPage = () => {
             </p>
           </div>
         </div>
-        <div className="home__search-container">
+        <div className="about-search__wrapper">
           <SearchBar homepage="true" />
         </div>
       </section>
