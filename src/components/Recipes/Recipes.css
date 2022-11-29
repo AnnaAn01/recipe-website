@@ -72,7 +72,7 @@
   /* background-color: blueviolet; */
 }
 
-.recipes__list-parent {
+/* .recipes__list-parent {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -80,6 +80,7 @@
   grid-row-gap: 10px;
   margin-top: 2rem;
   height: auto;
+  width: auto;
 }
 
 .recipes__list {
@@ -91,13 +92,71 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+
+.recipes__img {
+  width: 100%;
+  height: 28rem;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+} */
+
+.recipes__list-parent {
+  /* c
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-top: 2rem;
+  height: auto;
+  width: auto; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  /* background-color: yellow; */
+  width: 100%;
+  height: 100%;
+  margin-top: 2rem;
+}
+
+.recipes__list {
+  /* height: auto;
+  font-size: 2rem;
+  z-index: 1000;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; */
+
+  position: relative;
+  /* height: 100%; */
+  font-size: 2rem;
+  z-index: 1000;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   /* background-color: green; */
 }
 
 .recipes__img {
-  width: 28rem;
-  object-fit: cover;
+  /* width: 100%;
   height: 28rem;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px; */
+
+  object-fit: cover;
+  width: 18vw;
+  height: 17vw;
+  padding: 0rem 0;
   justify-content: center;
   align-items: center;
   border-radius: 3px;
@@ -209,7 +268,7 @@
 
 @media screen and (max-width: 1001px) {
   .recipes__container {
-    padding: 0rem 1rem 0rem 1rem;
+    padding: 0rem 5rem 0rem 5rem;
   }
 
   .recipes__wrapper {
@@ -228,6 +287,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .recipes__container {
+    padding: 0rem 1rem 0rem 1rem;
+  }
+
   .recipes__list-parent {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 0px;

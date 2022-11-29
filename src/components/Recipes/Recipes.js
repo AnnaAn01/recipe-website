@@ -56,7 +56,7 @@ const Recipes = () => {
             </div>
           </div>
         </div>
-        <ScrollUpBtn />
+        <ScrollUpBtn className="recipes__scroll-up-btn" />
       </div>
     </>
   );
