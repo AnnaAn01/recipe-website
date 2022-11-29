@@ -57,10 +57,12 @@ const HomePage = () => {
       <section className="homepage-first__container">
         {/*<div className="homepage-first__wrapper">{homeSetionOne}</div> */}
         <div className="homepage-first__wrapper">{homeSectionOne}</div>
-        <div className="homepage-first__carousel-wrapper">
-          {/*<HomeCarousel slides={slides} />*/}
-          {/*<Carousel />*/}
-        </div>
+        {/*
+      <div className="homepage-first__carousel-wrapper">
+          <HomeCarousel slides={slides} />
+          <Carousel />
+          </div>
+      */}
       </section>
       <section className="home__search-container">
         <SearchBar homepage="true" />
