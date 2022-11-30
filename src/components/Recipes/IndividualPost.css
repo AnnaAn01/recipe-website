@@ -1,9 +1,11 @@
 .recipe-pages {
-  height: auto;
+  height: 100%;
+  width: 100%;
   display: flex;
   background-color: rgb(249, 244, 244);
   padding: 0rem 15rem;
   flex-direction: column;
+  /* background-color: green; */
 }
 
 .individual-post__wrapper {
@@ -11,39 +13,48 @@
   flex-direction: column;
   justify-content: flex-start;
   flex-wrap: wrap;
-  display: grid;
+  /* display: grid; */
   height: auto;
+  width: 100%;
   padding-bottom: 5rem;
+  /* background-color: aquamarine; */
 }
 
 .individual-post__inner-wrapper {
-  width: 80rem;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 50vw;
   border-radius: 3px;
-  padding: 2rem;
-  justify-content: center;
-  align-items: center;
+  padding: 2rem 0;
+  justify-content: start;
+  align-items: flex-start;
+  /* background-color: blue; */
 }
 
 .individual-post__title {
-  font-size: 5rem;
-  color: red;
-  padding: 2rem 0rem;
+  font-size: 4rem;
+  color: rgb(74, 73, 73);
+  padding-top: 1rem;
+  width: 100%;
 }
 
 .individual-post__opening-text {
-  font-size: 2rem;
+  font-size: 1.8rem;
   padding: 2rem 0rem;
   text-align: justify;
   text-justify: auto;
   width: auto;
+  width: 50vw;
 }
 
 .individual-post__img-wrapper {
-  width: auto;
+  width: 47vw;
+  /* background-color: red; */
 }
 
 .individual-recipe__img {
-  width: 75rem;
+  width: 100%;
   object-fit: cover;
   height: 40vw;
   justify-content: center;
@@ -53,12 +64,14 @@
 
 .individual-post__steps {
   padding: 2rem 0rem;
-  width: 75rem;
+  width: 50vw;
+  text-align: justify;
+  font-size: 1.8rem;
 }
 
 .recipe-steps {
   display: inline;
-  font-size: 2rem;
+  font-size: 1.8rem;
   width: 75rem;
 }
 
@@ -71,6 +84,7 @@
 .individual-post__ingredients-name {
   font-size: 2rem;
   list-style-image: url(../../images-src/avo-25px-li-two.png);
+  /* background-color: yellow; */
 }
 
 .share-on-social-media-btn {
@@ -91,4 +105,91 @@
   transition: 0.3s ease-out;
   background-color: rgb(252, 189, 72);
   box-shadow: 0 0 5px rgba(230, 153, 10, 0.5);
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1161px) {
+  .recipe-pages {
+    padding: 0rem 10rem;
+  }
+}
+
+@media screen and (max-width: 1161px) {
+  .recipe-pages {
+    padding: 0rem 5rem;
+  }
+}
+
+@media screen and (max-width: 1001px) {
+  .recipe-pages {
+    height: auto;
+    width: 100%;
+    padding: 0rem 2rem;
+    /* background-color: brown; */
+  }
+
+  .individual-post__inner-wrapper {
+    width: 100%;
+    padding: 0rem;
+  }
+  .individual-post__title {
+    font-size: 3rem;
+  }
+  .individual-post__opening-text {
+    font-size: 1.8rem;
+    padding: 2rem 0rem;
+    width: 100%;
+  }
+
+  .individual-post__img-wrapper {
+    width: 100%;
+    /* background-color: red; */
+  }
+
+  .individual-recipe__img {
+    width: 100%;
+    object-fit: cover;
+    height: 40vh;
+  }
+
+  .individual-post__steps {
+    padding: 2rem 0rem;
+    width: 100%;
+    text-align: justify;
+    font-size: 1.8rem;
+  }
+
+  .recipe-steps {
+    display: flex;
+    font-size: 1.8rem;
+    width: 100%;
+    /* background-color: red; */
+  }
+
+  .individual-post__ingredients-wrapper {
+    padding-bottom: 5rem;
+    height: auto;
+    width: 100%;
+    /* background-color: blue; */
+  }
+
+  .individual-post__sns-btn-wrapper {
+    /* background-color: violet; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .search__view-all-link {
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .recipe-pages {
+    padding: 0rem 2rem;
+  }
 }

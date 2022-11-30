@@ -59,14 +59,16 @@ const IndividualPost = () => {
               }
             })}
           </div>
-          <Link to="/recipe" className="search__view-all-link">
-            <span className="search__view-all-btn">View all Recipes</span>
-          </Link>
-          <Link to="/" className="share-on-social-media-btn">
-            <span className="share-on-social-media-btn-span">
-              Share on social media
-            </span>
-          </Link>
+          <div className="individual-post__sns-btn-wrapper">
+            <Link to="/recipe" className="search__view-all-link">
+              <span className="search__view-all-btn">View all Recipes</span>
+            </Link>
+            <Link to="/" className="share-on-social-media-btn">
+              <span className="share-on-social-media-btn-span">
+                Share on social media
+              </span>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

@@ -15,43 +15,56 @@
 
 .show-group__intro-wrapper {
   display: flex;
-  /* background-color: aquamarine; */
-  padding: 2rem 20rem;
+  padding: 5rem 15rem;
   background-color: rgb(249, 244, 244);
+  /* background-color: aquamarine; */
   height: 100%;
 }
 
 .show-group__intro-img-wrapper {
   /* background-color: red; */
-  height: 42vh;
+  height: auto;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   /* margin-left: 5rem;
   margin-top: 5rem; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .show-group__intro-img {
-  height: 35vh;
+  height: 18rem;
+  width: 18rem;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  /* border-radius: 20%; */
   clip-path: circle();
+  /* border-radius: 50%;
+  height: 20vh;
+  width: 20vh; */
 
   /* padding: 2rem; */
 }
 
-.show-group__intro-img-description {
+/* .show-group__intro-img-description {
   font-size: 2rem;
   text-align: center;
   margin-top: -2rem;
   margin-bottom: 3rem;
-}
-.intro-img__width {
+} */
+/* .intro-img__width {
   max-width: 15vw;
-}
+} */
 
 .group-intro-text__wrapper {
   margin-left: 10rem;
-  padding-top: 5rem;
+  padding-top: 2rem;
+  /* background-color: blue; */
 }
 
 .show-group__intro-title {
@@ -63,11 +76,12 @@
 .show-group__intro-description {
   font-size: 1.7rem;
   line-height: 1.7;
+  text-align: justify;
 }
 
 .food-group__wrapper {
   /* display: flex; */
-  padding: 5rem 15rem;
+  padding: 5rem 10rem;
   /* background-color: yellow; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -103,4 +117,93 @@
   text-decoration: none;
   color: black;
   overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 1001px) {
+  .show-group__intro-wrapper {
+    padding: 2rem 10rem;
+  }
+
+  .group-intro-text__wrapper {
+    margin-left: 5rem;
+    padding-top: 5rem;
+  }
+
+  /* .show-group__intro-img {
+    height: 18rem;
+    width: 18rem;
+  } */
+
+  .food-group__wrapper {
+    padding: 5rem 5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .show-group__intro-wrapper {
+    padding: 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+
+    /* background-color: blue; */
+  }
+
+  .group-intro-text__wrapper {
+    margin-left: 0rem;
+    padding-top: 2rem;
+    /* background-color: blue; */
+    text-align: center;
+  }
+
+  .food-group__wrapper {
+    /* display: flex; */
+    padding: 2rem 2rem;
+    /* background-color: yellow; */
+    grid-template-columns: repeat(2, 1fr);
+    /* display: flex;
+    flex-direction: column; */
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    grid-row-gap: 2rem;
+  }
+
+  .show__item-img {
+    /* width: 80vw;
+    height: 80vw; */
+    width: 41vw;
+    height: 40vw;
+  }
+
+  .show__item-name {
+    width: 100%;
+    margin: 0rem 0;
+    font-size: 2.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+    overflow-wrap: break-word;
+  }
+
+  .homepage-group-list__wrapper {
+    /* background-color: green; */
+    padding-bottom: 2rem;
+  }
+
+  .show__item-name {
+    font-size: 1.7rem;
+  }
+
+  .show-group__intro-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  /* .showgroup__scroll-up-btn {
+    position: relative;
+    margin-top: 5rem;
+    background-color: red;
+  } */
 }

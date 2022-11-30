@@ -4,6 +4,7 @@ import HomePageSectionOne from "../HomePageSectionOne.json";
 import "./HomepageShowGroup.css";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
+import ScrollUpBtn from "../../ScrollUpButton/ScrollUpBtn";
 
 const HomepageShowGroup = () => {
   const params = useParams();
@@ -78,6 +79,7 @@ const HomepageShowGroup = () => {
         </div>
         <div className="food-group__wrapper">{foodGroups}</div>
       </div>
+      <div className="showgroup__scroll-up-btn">{/*<ScrollUpBtn />*/}</div>
     </div>
   );
 };
