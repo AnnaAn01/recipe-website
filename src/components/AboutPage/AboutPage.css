@@ -63,8 +63,6 @@
 .about-search__wrapper {
   display: flex;
   position: relative;
-  /* padding-bottom: 5rem; */
-  /* background-color: red; */
   padding-top: 5rem;
   padding-bottom: 0rem;
 }
@@ -72,9 +70,6 @@
 @media screen and (max-width: 1001px) {
   .about__container {
     padding: 0rem 5rem;
-  }
-
-  .about__img {
   }
 
   .about__wrapper {
@@ -95,9 +90,6 @@
   }
 
   .about__photo-wrapper {
-    /* height: 100%; */
-    /* justify-content: center;
-    align-items: center; */
     text-align: center;
   }
 
@@ -130,8 +122,6 @@
   .about-search__wrapper {
     display: flex;
     position: relative;
-    /* padding-bottom: 5rem; */
-    /* background-color: red; */
     padding-top: 0rem;
   }
 }
