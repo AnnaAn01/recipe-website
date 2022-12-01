@@ -1,9 +1,7 @@
 import React from "react";
 import "./AboutPage.css";
 import SearchBar from "../SearchBar/SearchBar";
-// import aboutImg from "../../images-src/about-img-1.jpg";
 import aboutImg from "../../images-src/about-img-2.jpg";
-import SearchViewAllRecipes from "../SearchBar/SearchViewAllRecipes";
 
 const AboutPage = () => {
   return (
